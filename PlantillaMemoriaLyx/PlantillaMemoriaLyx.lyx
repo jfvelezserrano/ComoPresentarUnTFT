@@ -865,13 +865,13 @@ literal "false"
 .
  Esto se puede hacer, por ejemplo, usando diagramas de casos de uso.
  En este caso, es importante acompañar los diagramas con explicaciones que
- los referencian.
+ los referencien.
  
 \end_layout
 
 \begin_layout Standard
-Un punto central de este capítulo se suele consistir en una descripción
- de los requisitos de la solución que se desea desarrollar.
+Un punto central de este capítulo suele consistir en una descripción de
+ los requisitos de la solución que se desea desarrollar.
  Suele ser habitual dividir dichos requisitos en dos categorías: requisitos
  funcionales y requisitos no funcionales.
  Cada requisito debe enunciarse, con un título, y explicarse suficientemente,
@@ -918,7 +918,7 @@ Finalmente, y solo si tiene sentido, en este capítulo caben diferentes análisi
 \end_layout
 
 \begin_layout Subsection
-Capítulo de diseño en implementación
+Capítulo de diseño e implementación
 \end_layout
 
 \begin_layout Standard
@@ -955,15 +955,26 @@ arquitectura del software
 
  y suele tener subsecciones que describen cada una de las partes de la solución
  que se desarrolla.
- En estas subsecciones suelen incluirse diferentes tipos de diagramas que
+ Suelen incluirse en este capítulo descripciones de cada pieza de código,
+ de los algoritmos, de las bases de datos...
+ 
+\end_layout
+
+\begin_layout Standard
+En estas subsecciones suelen incluirse diferentes tipos de diagramas que
  ayudan a entender la solución que se construye (diagramas UML de clases,
  de actividad, de secuencia, de despliegue o diagramas de flujos de datos,
  o de entidad relación, o de circuitos).
- También suelen incluirse en este capítulo descripciones de cada pieza de
- código, de los algoritmos, de las bases de datos...
- El diseño de la interfaz gráfica también debe ser explicado aquí, en este
- caso se debe hacer hincapié en temas como la usabilidad, la homogeneidad
- y la idoneidad para personas con discapacidades.
+ Debe recordarse que cada diagrama debe tener un pie de figura y debe estar
+ referenciado desde algún párrafo.
+ Por ello, suelen escribirse varios párrafos que describen lo que aparece
+ en cada diagrama.
+\end_layout
+
+\begin_layout Standard
+El diseño de la interfaz gráfica también debe ser explicado en este capítulo.
+ En este caso se debe hacer hincapié en temas como la usabilidad, la homogeneida
+d y la idoneidad para personas con discapacidades.
  
 \end_layout
 

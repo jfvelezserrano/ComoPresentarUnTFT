@@ -534,9 +534,10 @@ Objetivos
 \end_layout
 
 \begin_layout Standard
-Este trabajo tiene como objetivo servir de guía para la confección de la
- memoria de los Trabajos Fin de Titulación (grado, máster o tesis).
- Este objetivo general se puede desglosar en los siguientes subobjetivos:
+Este trabajo tiene como objetivo general servir de guía para la confección
+ de la memoria de los Trabajos Fin de Titulación (grado, máster o tesis).
+ Este objetivo general se puede desglosar en los siguientes objetivos específico
+s:
 \end_layout
 
 \begin_layout Itemize
@@ -667,8 +668,8 @@ Titulaciones relacionadas con la informática
 
 \begin_layout Standard
 Hay numerosas titulaciones relacionadas con la informática: ingeniería informáti
-ca, ingeniería del software, de computadores, software robótico, videojuegos,
- ciberseguridad...
+ca, del software, de computadores, software robótico, videojuegos, cibersegurida
+d...
  Dichas titulaciones comparten una carcaterítica común: la ejecución del
  proyecto, normalmente el desarrollo de un software, suele formar parte
  del TFT.
@@ -811,8 +812,11 @@ En este proyecto se va a desarrollar una biblioteca que ayude a parametrizar
 \begin_inset Newline newline
 \end_inset
 
-Además, los objetivos pueden dividirse en subobjetivos, para que todo quede
- explicado con mucho detalle.
+Además, los objetivos pueden dividirse en: objetivos generales y objetivos
+ específicos.
+ Un objetivo general es la finalidad del por qué empezamos a desarrollar
+ un proyecto, mientras que los objetivos escíficos de un proyecto corresponden
+ a los pasos que debemos seguir para alcanzar el objetivo general.
 \begin_inset Newline newline
 \end_inset
 
@@ -1151,7 +1155,7 @@ Ingenierías
 \end_layout
 
 \begin_layout Standard
-Existe una gran variedad de ingenierías: industriales, telecominicaciones,
+Existe una gran variedad de ingenierías: industriales, telecomunicaciones,
  agrónoma, arquitectura, caminos canales y puertos...
  Los TFT de estas ingenierías se caracterizan por la descripción de la solución
  a un problema.
@@ -1399,7 +1403,7 @@ Introducción, con la justificación y los objetivos.
 \end_layout
 
 \begin_layout Itemize
-Desarrollo, incluyendo: marco teórico, métodología y resultados.
+Desarrollo, incluyendo: marco teórico, metodología y resultados.
 \end_layout
 
 \begin_layout Itemize
@@ -2254,6 +2258,16 @@ Hay otras reglas, pero no están tan relacionadas con el tipo de oraciones
 LatexCommand cite
 key "Rodriguez2015"
 literal "true"
+
+\end_inset
+
+.
+ También puede hacer un test que publicó el periodico El País en el año
+ 2017 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Rubio2017"
+literal "false"
 
 \end_inset
 

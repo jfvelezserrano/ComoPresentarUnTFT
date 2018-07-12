@@ -301,6 +301,26 @@ Este documento pretende servir de guía para la realización del Proyecto
  Fin de Titulación (grado, máster o tesis) y para la confección de su memoria.
 \end_layout
 
+\begin_layout Chapter*
+Cómo leer este libro
+\end_layout
+
+\begin_layout Standard
+La estructura del libro coincide casi plenamente con la demandada en muchos
+ de los Trabajos Fin de Titulación.
+ 
+\end_layout
+
+\begin_layout Standard
+Cada capítulo empieza describiendo los contenidos que deberían tener y continua
+ desarrollando el tema del libro a modo de ejemplo.
+ Por lo tanto, se recomienda a los estudiantes que lean con detenimiento
+ la primera parte de cada capítulo.
+ El resto del capitúlo puede ser leido como texto inspirador o moivador
+ para el desarrollo y escritura del Trabajo Fin de Titulación.
+ 
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
@@ -396,9 +416,11 @@ TFT
 \end_inset
 
 TFT).
- Este documento pretende ser una guía que oriente al alumno en la confección
- de dicha memoria.
- Durante los siguientes capítulos se cubrirán tanto aspectos de contenido,
+ 
+\end_layout
+
+\begin_layout Standard
+Durante los siguientes capítulos se cubrirán tanto aspectos de contenido,
  como aspectos de estilo, formato y presentación.
 \end_layout
 
@@ -407,22 +429,46 @@ Motivación
 \end_layout
 
 \begin_layout Standard
-El objetivo de esta sección es el de presentar la motivación del proyecto
+El objetivo de esta sección es el de presentar la motivación del trabajo
  que se ha desarrollado.
+ Como es natural, los motivos pueden ser variados: resolver un problema
+ no solucionado o parcialmente resuelto, mejorar alguna propuesta, estudiar
+ un problema en profundidad, describir o interpretar con datos y en detalle
+ un hecho, explicar la relación causa-efecto, comprobar la efectividad de
+ un método, desarrollar un producto que cubra una necesidad social...
+ Es una buena idea poner al lector en contexto.
+ Se explica el problema, poniendo énfasis en la situación que hace necesario
+ la realización del trabajo.
+ 
 \end_layout
 
 \begin_layout Standard
-Tras la reforma de Bolonia, es obligatorio que todo alumno de grado, máster
- y tesis realice un TFT.
- Este documento trata de ayudar a alumnos y profesores de estas titulaciones
- a la hora de estructurar dichas memorias.
+Tras la creacción del Espacio Europeo de Enseñanza Superior redactado en
+ Bolonia en 1999, es obligatorio que todo alumno de grado, máster y tesis
+ realice un TFT.
+ La escritura de la memoria de este trabajo suele ser una labor complicada
+ ya que es la primera vez que el estudiante se enfrenta a redactar un documento
+ extenso y con una estructura determinada.
+ Habitualmente se sirven de otros trabajos de la misma titulación para tener
+ un esquema de cómo realizar dicho documento.
+ Esta tarea les exige leer dichas memorias y extraer la estructura y el
+ contenido principal que deben trasladar a su documento.
 \end_layout
 
 \begin_layout Standard
-Por otro lado, la experiencia de los alumnos escribiendo un trabajo de las
- características requeridas es baja.
- Por ello, otra motivación de este documento es la de dar pautas al alumno
- en cuanto a: estilo literario, formato del documento y uso de herramientas
+Los tutores (habitualmente los profesores) de los trabajos deben realizar
+ una labor de guía y revisión de estos documentos, lo que frecuentemente
+ les supone una inversión de tiempo y recursos que quitan a otras labores
+ docentes e investigadoras.
+ Además, esta tarea se repite cada vez que dirigen uno de estos trabajos.
+ 
+\end_layout
+
+\begin_layout Standard
+Este documento pretende ser una guía que oriente al alumno en la confección
+ de dicha memoria.
+ El objetivo principal de este documento es la de dar pautas al alumno en
+ cuanto a: estilo literario, formato del documento y uso de herramientas
  informáticas.
 \end_layout
 
@@ -534,9 +580,10 @@ Objetivos
 \end_layout
 
 \begin_layout Standard
-Este trabajo tiene como objetivo servir de guía para la confección de la
- memoria de los Trabajos Fin de Titulación (grado, máster o tesis).
- Este objetivo general se puede desglosar en los siguientes subobjetivos:
+Este trabajo tiene como objetivo general servir de guía para la confección
+ de la memoria de los Trabajos Fin de Titulación (grado, máster o tesis).
+ Este objetivo general se puede desglosar en los siguientes objetivos específico
+s:
 \end_layout
 
 \begin_layout Itemize
@@ -811,8 +858,11 @@ En este proyecto se va a desarrollar una biblioteca que ayude a parametrizar
 \begin_inset Newline newline
 \end_inset
 
-Además, los objetivos pueden dividirse en subobjetivos, para que todo quede
- explicado con mucho detalle.
+Además, los objetivos pueden dividirse en: objetivos generales y objetivos
+ específicos.
+ Un objetivo general es la finalidad del por qué empezamos a desarrollar
+ un proyecto, mientras que los objetivos escíficos de un proyecto corresponden
+ a los pasos que debemos seguir para alcanzar el objetivo general.
 \begin_inset Newline newline
 \end_inset
 
@@ -1151,7 +1201,7 @@ Ingenierías
 \end_layout
 
 \begin_layout Standard
-Existe una gran variedad de ingenierías: industriales, telecominicaciones,
+Existe una gran variedad de ingenierías: industriales, telecomunicaciones,
  agrónoma, arquitectura, caminos canales y puertos...
  Los TFT de estas ingenierías se caracterizan por la descripción de la solución
  a un problema.
@@ -1399,7 +1449,7 @@ Introducción, con la justificación y los objetivos.
 \end_layout
 
 \begin_layout Itemize
-Desarrollo, incluyendo: marco teórico, métodología y resultados.
+Desarrollo, incluyendo: marco teórico, metodología y resultados.
 \end_layout
 
 \begin_layout Itemize
@@ -2254,6 +2304,16 @@ Hay otras reglas, pero no están tan relacionadas con el tipo de oraciones
 LatexCommand cite
 key "Rodriguez2015"
 literal "true"
+
+\end_inset
+
+.
+ También puede hacer un test que publicó el periodico El País en el año
+ 2017 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Rubio2017"
+literal "false"
 
 \end_inset
 

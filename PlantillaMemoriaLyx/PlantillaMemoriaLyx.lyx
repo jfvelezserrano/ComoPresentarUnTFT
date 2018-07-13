@@ -416,7 +416,11 @@ TFT
 \end_inset
 
 TFT).
- 
+ Todos los textos y contenidos deben ser propios del estudiante, que debe
+ encargarse de redactarlos, a partir del estudio, análisis, comparación
+ y valoración de informaciones y datos procedentes de diversas fuentes ya
+ sean directas e indirectas.
+ Cualquier información no original debe ser citada convenientemente.
 \end_layout
 
 \begin_layout Standard
@@ -496,9 +500,19 @@ Estado del arte
 \end_layout
 
 \begin_layout Standard
-En esta sección se expone brevemente el estado de la ciencia o la realidad
- (tecnología, ley, investigaciones...) sobre el tema que se trata: la confección
- de la memoria de un TFT.
+Una vez presentado el problema y el contexto en el que se desarrollará la
+ posible solución, hay que hace un estudio sobre las soluciones (parciales)
+ que se han propuesto antes del desarrollo del TFT.
+ Esto exige hacer una búsqueda de información relevante, por lo que se debe
+ encontrar las fuentes necesarias que apoyen nuestro trabajo es esencial
+ igual que lo es saber dónde localizarlas Esto implica una revisión bibliográfic
+a del tema en cuestión.
+ En esta sección se expone el estado actual de la ciencia o la realidad
+ (tecnología, ley, investigaciones...) sobre el tema que se trata.
+ Además de describir la actualidad, se suele hacer un análisis de las ventajas
+ y puntos débiles de las soluciones propuestas de cara a enfocar mejor el
+ TFT.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -507,6 +521,38 @@ La problemática de la confección de la memoria de un TFT se puede enfocar
  para confeccionar la memoria y desde la perspectiva de la formación de
  los alumnos para la creación de dicha memoria.
  En esta sección se explora la situación actual respecto a ambas perspectivas.
+\end_layout
+
+\begin_layout Standard
+Muchas universidades publican sus propias guías o esquemas para la realización
+ de los TFT.
+ Algunos de estos documentos, son generales 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DeustoTFG,NebrijaTFG"
+literal "false"
+
+\end_inset
+
+ y otros son particulares para alguna titulación concreta 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "UCAMTurismo,SevillaDerechoyTrabajo"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "UCAMTurismo,SevillaDerechoyTrabajo,URJCJuridicas"
+literal "false"
+
+\end_inset
+
+.
+ Sulen incluir el esquema que deben seguir, incluyendo las normativas internas
+ para presentarlo.
 \end_layout
 
 \begin_layout Subsection

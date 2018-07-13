@@ -416,7 +416,11 @@ TFT
 \end_inset
 
 TFT).
- 
+ Todos los textos y contenidos deben ser propios del estudiante, que debe
+ encargarse de redactarlos, a partir del estudio, análisis, comparación
+ y valoración de informaciones y datos procedentes de diversas fuentes ya
+ sean directas e indirectas.
+ Cualquier información no original debe ser citada convenientemente.
 \end_layout
 
 \begin_layout Standard
@@ -444,8 +448,15 @@ El objetivo de esta sección es el de presentar la motivación del trabajo
 
 \begin_layout Standard
 Tras la creacción del Espacio Europeo de Enseñanza Superior redactado en
- Bolonia en 1999, es obligatorio que todo alumno de grado, máster y tesis
- realice un TFT.
+ Bolonia en 1999 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "EEES"
+literal "false"
+
+\end_inset
+
+, es obligatorio que todo alumno de grado, máster y tesis realice un TFT.
  La escritura de la memoria de este trabajo suele ser una labor complicada
  ya que es la primera vez que el estudiante se enfrenta a redactar un documento
  extenso y con una estructura determinada.
@@ -460,7 +471,9 @@ Los tutores (habitualmente los profesores) de los trabajos deben realizar
  una labor de guía y revisión de estos documentos, lo que frecuentemente
  les supone una inversión de tiempo y recursos que quitan a otras labores
  docentes e investigadoras.
- Además, esta tarea se repite cada vez que dirigen uno de estos trabajos.
+ Además, esta tarea se repite cada vez que dirigen uno de estos trabajos
+ lo que provoca que alguna vez se olviden de dar todas las orientaciones
+ pertinentes a los estudiantes.
  
 \end_layout
 
@@ -487,9 +500,19 @@ Estado del arte
 \end_layout
 
 \begin_layout Standard
-En esta sección se expone brevemente el estado de la ciencia o la realidad
- (tecnología, ley, investigaciones...) sobre el tema que se trata: la confección
- de la memoria de un TFT.
+Una vez presentado el problema y el contexto en el que se desarrollará la
+ posible solución, hay que hace un estudio sobre las soluciones (parciales)
+ que se han propuesto antes del desarrollo del TFT.
+ Esto exige hacer una búsqueda de información relevante, por lo que se debe
+ encontrar las fuentes necesarias que apoyen nuestro trabajo es esencial
+ igual que lo es saber dónde localizarlas Esto implica una revisión bibliográfic
+a del tema en cuestión.
+ En esta sección se expone el estado actual de la ciencia o la realidad
+ (tecnología, ley, investigaciones...) sobre el tema que se trata.
+ Además de describir la actualidad, se suele hacer un análisis de las ventajas
+ y puntos débiles de las soluciones propuestas de cara a enfocar mejor el
+ TFT.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -498,6 +521,15 @@ La problemática de la confección de la memoria de un TFT se puede enfocar
  para confeccionar la memoria y desde la perspectiva de la formación de
  los alumnos para la creación de dicha memoria.
  En esta sección se explora la situación actual respecto a ambas perspectivas.
+\end_layout
+
+\begin_layout Standard
+Muchas universidades publican sus propias guías o esquemas para la realización
+ de los TFT.
+ Algunos de estos documentos, son generales y otros son particulares para
+ alguna titulación concreta.
+ Sulen incluir el esquema que deben seguir, incluyendo las normativas internas
+ para presentarlo.
 \end_layout
 
 \begin_layout Subsection

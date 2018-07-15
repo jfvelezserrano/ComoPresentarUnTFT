@@ -447,7 +447,7 @@ El objetivo de esta sección es el de presentar la motivación del trabajo
 \end_layout
 
 \begin_layout Standard
-Tras la creacción del Espacio Europeo de Enseñanza Superior redactado en
+Tras la creación del Espacio Europeo de Enseñanza Superior redactado en
  Bolonia en 1999 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -526,9 +526,32 @@ La problemática de la confección de la memoria de un TFT se puede enfocar
 \begin_layout Standard
 Muchas universidades publican sus propias guías o esquemas para la realización
  de los TFT.
- Algunos de estos documentos, son generales y otros son particulares para
- alguna titulación concreta.
- Sulen incluir el esquema que deben seguir, incluyendo las normativas internas
+ Algunos de estos documentos, son generales 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "DeustoTFG,NebrijaTFG"
+literal "false"
+
+\end_inset
+
+ y otros son particulares para alguna titulación concreta 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "UCAMTurismo,SevillaDerechoyTrabajo"
+literal "false"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "UCAMTurismo,SevillaDerechoyTrabajo,URJCJuridicas"
+literal "false"
+
+\end_inset
+
+.
+ Suelen incluir el esquema que deben seguir, incluyendo las normativas internas
  para presentarlo.
 \end_layout
 
@@ -537,7 +560,7 @@ Herramientas para la confección de la memoria
 \end_layout
 
 \begin_layout Standard
-Existen multitud de herramientas informáticas para realizar una memoría
+Existen multitud de herramientas informáticas para realizar una memoria
  de un TFT.
  Quizás, la más utilizada es el procesador de textos, aunque pueden citarse
  otras herramientas como: los programas de dibujo y retoque fotográfico,
@@ -562,8 +585,8 @@ En cuanto a procesadores de texto, los más utilizados son Word y Latex.
 Por otro lado, Latex es un lenguaje de programación especialmente orientado
  a la creación de este tipo de documentos.
  Sin embargo, el aprendizaje de Latex es un proceso complejo y desagradable.
- Es por ello que desde aquí se recomienda el uso de Lyx, que contituye una
- herramienta intermedia entre Word y Latex.
+ Es por ello que desde aquí se recomienda el uso de Lyx, que constituye
+ una herramienta intermedia entre Word y Latex.
 \end_layout
 
 \begin_layout Subsection
@@ -656,7 +679,7 @@ Estructura de la memoria
 El resto de la presente memoria se divide cuatro capítulos.
  En el siguiente se describen las particularidades de las diferentes titulacione
 s respecto al contenido de la memoria.
- El capítulo tres trata aspectos formales sobre estílo literario y sobre
+ El capítulo tres trata aspectos formales sobre estilo literario y sobre
  cómo debe escribirse una memoria.
  En el cuarto se describe el uso de 
 \noun on
@@ -735,7 +758,7 @@ Estas partes se concretan en un conjunto más o menos amplio de capítulos.
 
 \begin_layout Standard
 A pesar de la generalidad descrita, los proyectos de las diferentes titulaciones
- tienen diferencías importantes.
+ tienen diferencias importantes.
  Es por ello que en las siguientes secciones se proponen algunos índices
  adecuados para diferentes tipos de titulaciones.
 \end_layout
@@ -748,7 +771,7 @@ Titulaciones relacionadas con la informática
 Hay numerosas titulaciones relacionadas con la informática: ingeniería informáti
 ca, del software, de computadores, software robótico, videojuegos, cibersegurida
 d...
- Dichas titulaciones comparten una carcaterítica común: la ejecución del
+ Dichas titulaciones comparten una característica común: la ejecución del
  proyecto, normalmente el desarrollo de un software, suele formar parte
  del TFT.
 \end_layout
@@ -763,7 +786,7 @@ Introducción
 \end_layout
 
 \begin_layout Itemize
-Ańalisis
+Análisis
 \end_layout
 
 \begin_layout Itemize
@@ -798,7 +821,7 @@ En el capítulo de introducción se introduce el problema o proyecto informátic
 \end_layout
 
 \begin_layout Standard
-Tras el título del capítulo, como siempre, deberá exisitir un párrafo que
+Tras el título del capítulo, como siempre, deberá existir un párrafo que
  resuma lo que se va a contar en el capítulo.
  Por ejemplo: 
 \begin_inset Quotes eld
@@ -849,7 +872,7 @@ estado del arte
 \begin_inset Quotes eld
 \end_inset
 
-situación a ctual de la tecnología
+situación actual de la tecnología
 \begin_inset Quotes erd
 \end_inset
 
@@ -874,7 +897,7 @@ objetivos
 
  en la que se detallan los objetivos que se van a cumplir con el trabajo
  que se presenta.
- Los objetivos deben explicarse con sufiente detalle, por ejemplo: 
+ Los objetivos deben explicarse con suficiente detalle, por ejemplo: 
 \begin_inset Quotes eld
 \end_inset
 
@@ -893,13 +916,13 @@ En este proyecto se va a desarrollar una biblioteca que ayude a parametrizar
 Además, los objetivos pueden dividirse en: objetivos generales y objetivos
  específicos.
  Un objetivo general es la finalidad del por qué empezamos a desarrollar
- un proyecto, mientras que los objetivos escíficos de un proyecto corresponden
+ un proyecto, mientras que los objetivos específicos de un proyecto corresponden
  a los pasos que debemos seguir para alcanzar el objetivo general.
 \begin_inset Newline newline
 \end_inset
 
 También es una buena práctica escribir esta sección antes de comenzar el
- desarrollo del poryecto, pues permite que el alumno entienda los objetivos
+ desarrollo del proyecto, pues permite que el alumno entienda los objetivos
  que se persiguen.
  En esta ocasión es más necesario que nunca la supervisión del tutor, pues
  en caso contrario el alumno puede desarrollar el TFT equivocado.
@@ -982,7 +1005,7 @@ En el caso de proyectos que incluyan recursos proporcionados externamente,
  Por ejemplo, en un proyecto de reconocimiento de caras, el profesor podría
  proporcionar una base de datos de test.
  Entonces, en este capítulo, como parte del análisis y para entender mejor
- el problema, podría encontarse una sección titulada 
+ el problema, podría encontrarse una sección titulada 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1083,14 +1106,14 @@ En algunos casos los proyectos no tienen experimentos, porque consisten
  en el desarrollo de un software.
  En dichos casos, en este capítulo se suele incluir la descripción y los
  resultados de las pruebas que se realizan sobre el software.
- Por cada prueba puede exisstir una subsección con uno varios párrafos que
+ Por cada prueba puede existir una subsección con uno varios párrafos que
  expliquen la prueba y el resultado obtenido.
 \end_layout
 
 \begin_layout Standard
 Si existen, las pruebas de la interfaz gráfica también deben incluirse en
  este apartado, y si no son automáticas deberán ser descritas de manera
- exahustiva.
+ exhaustiva.
  En este caso también suele crearse una subsección por cada prueba.
  En ellas los párrafos explicativos suelen acompañarse de figuras que describen
  la prueba.
@@ -1112,7 +1135,7 @@ En este capítulo se explican las medidas que se han acumulado durante el
 \begin_layout Standard
 Idealmente, se dispondría de un diagrama de Gant que reflejaría el tiempo
  empleado en cada una de las fases del desarrollo del TFG.
- Si es el caso, también se podrían utilizar las herramientas que proporncione
+ Si es el caso, también se podrían utilizar las herramientas que proporcione
  la metodología que se haya seguido.
  Por ejemplo, si se ha usado Scrum se podría incluir el diagrama de Burndown.
 \end_layout
@@ -1128,11 +1151,11 @@ Si no se dispone de información exacta siempre se puede realizar una estimació
 \begin_layout Standard
 En este capítulo también se deben incluir datos sobre la complejidad informática
  del proyecto realizado o su calidad: líneas de código escritas, porcentaje
- de comentarios, porcentaje de duplicación de código, indice de cobertura
+ de comentarios, porcentaje de duplicación de código, índice de cobertura
  de las pruebas unitarias.
  Para obtener estas medidas existe software específico como SonarQube o
  Coverture.
- Por cada una de estas medidas debe incluirse un parráfo explicando la medida
+ Por cada una de estas medidas debe incluirse un párrafo explicando la medida
  y otro analizando el valor obtenido.
 \end_layout
 
@@ -1178,7 +1201,7 @@ objetivos conseguidos
 \end_inset
 
 Se ha construido una herramientas que permite reconocer caras en vídeos.
- Esta herramienta se basa en el algoritmo furruflús.
+ Esta herramienta se basa en el algoritmo Furruflús.
  Los resultados obtenidos han sido del 80% sobre una base de datos de test
  propia.
  El algoritmo mejora los resultados obtenidos por otros algoritmos analizados
@@ -1569,7 +1592,7 @@ Titulaciones en Ciencias Experimentales
 
 \begin_layout Standard
 Hay numerosas titulaciones relacionadas con las ciencias experimentales:
- Biología, Química, Fisica, Geología, Ciencias ambientales...
+ Biología, Química, Física, Geología, Ciencias ambientales...
 \end_layout
 
 \begin_layout Standard
@@ -1642,8 +1665,8 @@ De manera específica, las memorias de dichas titulaciones, dependiendo de
 \end_layout
 
 \begin_layout Standard
-Tambien puede ocurrir, sobre todo en las tesis doctorales, que no tengan
- un caracter de proyecto único, sino de línea de investigación, mezclando
+También puede ocurrir, sobre todo en las tesis doctorales, que no tengan
+ un carácter de proyecto único, sino de línea de investigación, mezclando
  los resultados de varias publicaciones.
 \end_layout
 
@@ -1652,12 +1675,12 @@ Formato físico de la memoria
 \end_layout
 
 \begin_layout Standard
-En los grados de la Escuela Técnica Superior de Ingeniería Inforática es
+En los grados de la Escuela Técnica Superior de Ingeniería Informática es
  obligatorio presentar una memoria encuadernada en tapa dura de color azul
  cielo (o similar) que quedará en la biblioteca de la universidad.
- Habitualmente hay dos alternativas: una encudernación de alta calidad (con
- las páginas cosidas y los títulos grabados) y una encuadernación de más
- baja calidad (con las páginas aprisionadas y los títulos en una pegatina
+ Habitualmente hay dos alternativas: una encuadernación de alta calidad
+ (con las páginas cosidas y los títulos grabados) y una encuadernación de
+ más baja calidad (con las páginas aprisionadas y los títulos en una pegatina
  transparente).
  La opción de calidad (ver figura 
 \begin_inset CommandInset ref
@@ -1668,7 +1691,7 @@ reference "fig:Ejemplos-de-encuardenaciones"
 
 a) es más cara, unos 30 euros, y puede tardar hasta una semana en ser confeccion
 ada.
- La opción ecnonómica (ver figura 
+ La opción econonómica (ver figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Ejemplos-de-encuardenaciones"
@@ -2044,7 +2067,7 @@ El autor de un libro es el que piensa lo que hay que escribir, el escritor
 Normalmente, el autor y el escritor suelen ser la misma persona, pero en
  ocasiones no es así.
  Por ejemplo, Jorge Luis Borges continuó escribiendo aún cuando se quedó
- practicamente ciego gracias a su secreatria y luego esposa, María Kodama
+ prácticamente ciego gracias a su secretaria y luego esposa, María Kodama
  y a varios ayudantes enviados por sus editoriales.
  Normalmente, en los TFT el autor y el escritor son la misma persona 
 \begin_inset CommandInset citation
@@ -2330,7 +2353,7 @@ Cuando el experimento terminó, repetimos la toma de muestras
 \begin_layout Standard
 Hay otras reglas, pero no están tan relacionadas con el tipo de oraciones
  que suelen aparecer en las memorias de los proyectos de fin de titulación.
- Para estudiarlas todas se remite al estudiante al estupendo blog de Rodriguez
+ Para estudiarlas todas se remite al estudiante al estupendo blog de Rodríguez
  Fuentes 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2340,7 +2363,7 @@ literal "true"
 \end_inset
 
 .
- También puede hacer un test que publicó el periodico El País en el año
+ También puede hacer un test que publicó el periódico El País en el año
  2017 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2569,11 +2592,23 @@ En un TFT, suelen usarse los siguientes estilos:
 \end_layout
 
 \begin_layout Itemize
-Chapter, para cada capítulo.
+
+\emph on
+Chapter
+\emph default
+, para cada capítulo.
 \end_layout
 
 \begin_layout Itemize
-Section, Subsection para los diferentes niveles de sección y subsección.
+
+\emph on
+Section
+\emph default
+, 
+\emph on
+Subsection
+\emph default
+ para los diferentes niveles de sección y subsección.
 \end_layout
 
 \begin_layout Itemize
@@ -2582,7 +2617,11 @@ Raramente se debe utilizar subsubsection, pues supone demasiado nivel de
 \end_layout
 
 \begin_layout Itemize
-Standar, para los párrafos normales.
+
+\emph on
+Standar
+\emph default
+, para los párrafos normales.
 \end_layout
 
 \begin_layout Standard
@@ -2632,8 +2671,11 @@ conceptos
 
 \end_inset
 
- importantes en la memoria deben marcarse como entradas en el índice (insert/ind
-ex entry).
+ importantes en la memoria deben marcarse como entradas en el índice (
+\emph on
+insert/index entry
+\emph default
+).
  Así, luego podrán buscarse desde un anexo al final de la memoria.
 \end_layout
 
@@ -2746,8 +2788,16 @@ literal "true"
 Lyx
 \noun default
  para seleccionar los artículos.
- El fichero bib también puede editarse con una herramienta específica para
- editar este tipo de archivos como 
+ El fichero 
+\begin_inset Quotes eld
+\end_inset
+
+bib
+\begin_inset Quotes erd
+\end_inset
+
+ también puede editarse con una herramienta específica para editar este
+ tipo de archivos como 
 \noun on
 JabRef
 \noun default
@@ -2819,7 +2869,7 @@ bibliografía
 \begin_layout Standard
 Para que al incluir URLs se creen enlaces se debe incluir el paquete 
 \backslash
-usepackage{url} en el preambulo del documento Lyx.
+usepackage{url} en el preámbulo del documento Lyx.
  Además, dichos enlaces se realizarán mediante el campo HowPublished en
  el archivo bib.
  Especificando dentro la etiqueta 
@@ -3710,16 +3760,17 @@ Formato, estructura y contenido
 \begin_layout Standard
 Las diapositivas deben seguir someramente la estructura de la memoria.
  Así, por cada capítulo de la memoria deben crearse 3 o 4 diapositivas.
- Los capítulos con más contenido pueden tener algunas diapositivas más que
- los capítulos menos densos.
+ Los capítulos con más contenido, o cuya aportación sea más fundamental,
+ deben tener más peso que los capítulos menos importantes.
 \end_layout
 
 \begin_layout Standard
 En general, la presentación de un TFT tiene una limitación en tiempo de
  15 minutos, más 5 o 10 minutos de preguntas.
  Es por ello que suele limitarse el número de diapositivas a, aproximadamente,
- una por minuto, ya que un numero mayor de diapositivas da lugar a presentacione
-s atropelladas o, peor aún, que se alargan fuera de tiempo.
+ una por minuto.
+ Un numero mayor de diapositivas da lugar a presentaciones atropelladas
+ o, peor aún, que se alargan fuera de tiempo.
 \end_layout
 
 \begin_layout Standard
@@ -3745,23 +3796,38 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-En las presentación de un TFT no es conveniente usar transiciones ni animaciones.
- Ese tipo de efectos son complejos (por lo que pueden fallar), retrasan
- la presentación (porque introducen esperas innecesarias) y desvían la atención
- (porque la atención debe estar en el contenido, no en la forma).
- Además, suele ser buena idea convertir la presentación a un archivo PDF
- que incluya las tipografías, pues se evitan problemas con las versiones
- del software de presentación, con el formato y con la red.
+Aunque son muy vistosas, en la presentación de un TFT no es conveniente
+ usar transiciones ni animaciones.
+ Ese tipo de efectos son técnicamente complejos, por lo que pueden fallar
+ si se cambia de ordenador.
+ También, estos efectos alargan la presentación, porque introducen esperas
+ innecesarias.
+ Aunque el principal problema de estos efectos es que desvían la atención
+ del tribunal, pues la atención debe estar en el contenido y no en la forma.
+ Para evitar tentaciones, suele ser buena idea convertir la presentación
+ a un archivo PDF pues se evitan problemas con las versiones del software
+ de presentación, con el formato y con la red.
+ Al crear el archivo PDF se puede configurar una opción que incluya las
+ tipografías usadas, de esta forma se asegura una correcta visualización
+ en cualquier ordenador.
 \end_layout
 
 \begin_layout Standard
-Se suele optar por que el texto de la diapositiva dé apoyo a lo que quiere
- contar el orador y además sirva a los oyentes para reforzar lo que se está
- contando.
+Respecto al contenido de las diapositivas, se suele optar por que el texto
+ de la diapositiva dé apoyo a lo que quiere contar el orador y además sirva
+ a los oyentes para reforzar lo que se está contando.
  El texto debe tener un tamaño mínimo de 16 puntos.
- Si existiesen más de 3 o 4 frases se deberían marcar en otro color los
+ Si existiesen más de 3 o 4 frases se deberían resaltar en otro color los
  conceptos más importantes.
  
+\end_layout
+
+\begin_layout Standard
+También suele ser una buena idea que exista algún tipo de elemento gráfico
+ en cada diapositiva.
+ Idealmente, dicho elemento gráfico debería formar parte de la explicación.
+ Sin embargo, en ocasiones se incluyen elementos gráficos simplemente para
+ aportar algo de vistosidad, como por ejemplo una diana en las conclusiones.
 \end_layout
 
 \begin_layout Standard
@@ -3771,7 +3837,7 @@ Respecto a los colores no conviene que haya mucha variabilidad.
  Por ejemplo, se podría usar negro para el texto, azul para los títulos
  y las palabras resaltadas, negro y diferentes grados de azul para las imágenes
  y quizás algún color que contraste mucho con el azul (como el naranja)
- para algún detalle de las imágenes.
+ para resaltar las palabras o algún detalle de las imágenes.
 \end_layout
 
 \begin_layout Standard
@@ -3814,17 +3880,13 @@ name "fig:Ejemplo-de-diapositiva."
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Section
-Presentación
+El acto de la presentación
 \end_layout
 
 \begin_layout Standard
@@ -3832,18 +3894,19 @@ Antes de la presentación el alumno debe hacer al menos un ensayo con el
  tutor.
  En este ensayo se corrigen los errores que se detecten y se mide el tiempo
  para comprobar que se ajusta a lo estipulado.
- Idealmente el alumno realizará diferentes ensayos hasta que consiga una
- presentación fluida, sin errores y ajustada en tiempos.
+ Normalmente, el alumno por su cuenta realizará diferentes ensayos hasta
+ que consiga una presentación fluida, sin errores y ajustada en tiempos.
 \end_layout
 
 \begin_layout Standard
 El día de la presentación al tribunal, se proyectará la diapositiva de portada
- mientras entra el tribunal y el público, y mientras el tribunal realiza
+ mientras entra el tribunal y el público, y mientras que el tribunal realiza
  las presentaciones y lee el título del trabajo.
  Cuando al alumno se le da pie comienza la presentación directamente, pasando
  a la diapositiva de índice, ya que el título del proyecto y el nombre de
  los autores ya lo habrá dicho el tribunal.
- Una forma elegante de comenzar consiste en agradecer al tribunal su presencia.
+ Una forma elegante de comenzar consiste en que el alumno agradezca al tribunal
+ su presencia.
 \end_layout
 
 \begin_layout Standard
@@ -3874,26 +3937,30 @@ se va a ver
 \end_inset
 
 .
- Además, hay que evitar improvisaciones, frases coloquiales, murmurar y
- sobre todo nunca decir exabruptos.
+ Además, hay que evitar improvisaciones, frases coloquiales, murmurar y,
+ sobre todo, nunca decir exabruptos.
 \end_layout
 
 \begin_layout Standard
-Tras concluir la presentación de las diapositivas, si es posible, el alumno
- puede hacer una pequeña demostración de la aplicación.
+En el caso de que el alumno haya desarrollado algún programa, alguna maqueta
+ o algún otro objeto, tras concluir la presentación de las diapositivas,
+ el alumno puede hacer una pequeña demostración de lo que ha construido.
 \end_layout
 
 \begin_layout Standard
-Finalmente, cuando el alumno termine debe decir que 
+Finalmente, cuando el alumno termine puede utilizar la siguiente fórmula:
+ 
 \begin_inset Quotes eld
 \end_inset
 
-queda a disposición del tribunal para responder las preguntas que considere
- oportuno
+con esto concluyo mi presentación y quedo a disposición del tribunal
 \begin_inset Quotes erd
 \end_inset
 
 .
+ Entonces, el tribunal comenzará un turno de preguntas que el alumno debe
+ contestar con sinceridad y humildad, intentando no entrar en discusiones
+ con el tribunal que siempre resultan estériles.
  Tras estas preguntas, el tribunal pedirá al alumno y al público que se
  retire para que se delibere la nota.
  Así, el alumno y el público permanece fuera del aula hasta que el tribunal

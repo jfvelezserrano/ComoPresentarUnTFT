@@ -312,11 +312,11 @@ La estructura del libro coincide casi plenamente con la demandada en muchos
 \end_layout
 
 \begin_layout Standard
-Cada capítulo empieza describiendo los contenidos que deberían tener y continua
+Cada capítulo empieza describiendo los contenidos que debería tener y continua
  desarrollando el tema del libro a modo de ejemplo.
  Por lo tanto, se recomienda a los estudiantes que lean con detenimiento
  la primera parte de cada capítulo.
- El resto del capitúlo puede ser leido como texto inspirador o moivador
+ El resto del capítulo puede ser leído como texto inspirador o motivador
  para el desarrollo y escritura del Trabajo Fin de Titulación.
  
 \end_layout
@@ -681,12 +681,8 @@ El resto de la presente memoria se divide cuatro capítulos.
 s respecto al contenido de la memoria.
  El capítulo tres trata aspectos formales sobre estilo literario y sobre
  cómo debe escribirse una memoria.
- En el cuarto se describe el uso de 
-\noun on
-Lyx
-\noun default
-.
- En el quinto se habla de la presentación.
+ En el cuarto se describe el uso de los diferentes procesadores de texto.
+ En el quinto se habla de la presentación oral.
  Finalmente, en el sexto se presentan las conclusiones de este documento.
 \end_layout
 
@@ -695,15 +691,14 @@ Particularidades del TFT en los distintos grados
 \end_layout
 
 \begin_layout Standard
-En este capítulo se abordan las particularidades de los TFG en los diferentes
- grados.
- Es por ello que el estudiante no necesita leerlo completo, sino que solo
- debe centrarse en la sección que más se asemeje al tipo de titulación que
- estudia.
+En este capítulo se abordan particularidades de los TFT en diferentes grados.
+ Es por ello que el estudiante no necesita leerlo completo, sino que puede
+ centrarse en la sección que más se asemeje al tipo de titulación que estudia.
 \end_layout
 
 \begin_layout Standard
-En general, un TFT tiene la siguiente estructura:
+Aunque en cada titulación la estructura en detalle del TFT puede ser muy
+ diferente, en general, todos los TFT comparten la siguiente estructura:
 \end_layout
 
 \begin_layout Itemize
@@ -748,9 +743,10 @@ Apéndices
 \end_layout
 
 \begin_layout Standard
-Estas partes se concretan en un conjunto más o menos amplio de capítulos.
+Dependiendo de la titulación, del tema y del autor, esta estructura se concreta
+ en un conjunto más o menos amplio de capítulos.
  Normalmente hay uno o dos capítulos introductorios, luego se disponen varios
- capítulos relativos al desarrollo del proyecto y finalmente debe existir
+ capítulos relativos al desarrollo del trabajo y finalmente debe existir
  un capítulo de conclusiones.
  También pueden existir varios anexos que tratan temas laterales.
  
@@ -759,8 +755,10 @@ Estas partes se concretan en un conjunto más o menos amplio de capítulos.
 \begin_layout Standard
 A pesar de la generalidad descrita, los proyectos de las diferentes titulaciones
  tienen diferencias importantes.
- Es por ello que en las siguientes secciones se proponen algunos índices
- adecuados para diferentes tipos de titulaciones.
+ Es por ello que en las siguientes secciones se proponen y comentan los
+ índices de algunos trabajos realizados para diferentes titulaciones.
+ Esperamos que estos ejemplos sirvan de inspiración a los alumnos para la
+ creación de su propia estructura.
 \end_layout
 
 \begin_layout Section
@@ -771,9 +769,12 @@ Titulaciones relacionadas con la informática
 Hay numerosas titulaciones relacionadas con la informática: ingeniería informáti
 ca, del software, de computadores, software robótico, videojuegos, cibersegurida
 d...
- Dichas titulaciones comparten una característica común: la ejecución del
- proyecto, normalmente el desarrollo de un software, suele formar parte
- del TFT.
+ Dichas titulaciones comparten una característica común: el trabajo concluye
+ con la ejecución del proyecto.
+ Es decir, en otras ingenierías el TFT es un proyecto, pero no se lleva
+ a cabo.
+ Sin embargo, en los proyectos de informática se suele llevar a cabo el
+ desarrollo del software, construyendo un producto final.
 \end_layout
 
 \begin_layout Standard
@@ -1084,7 +1085,7 @@ d y la idoneidad para personas con discapacidades.
 \end_layout
 
 \begin_layout Subsection
-Capítulo de experimentos y pruebas
+Capítulo de experimentos, pruebas y métricas
 \end_layout
 
 \begin_layout Standard

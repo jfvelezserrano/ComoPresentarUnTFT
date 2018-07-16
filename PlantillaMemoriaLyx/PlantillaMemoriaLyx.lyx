@@ -312,7 +312,7 @@ La estructura del libro coincide casi plenamente con la demandada en muchos
 \end_layout
 
 \begin_layout Standard
-Cada capítulo empieza describiendo los contenidos que debería tener y continua
+Cada capítulo empieza describiendo los contenidos que debería tener y continúa
  desarrollando el tema del libro a modo de ejemplo.
  Por lo tanto, se recomienda a los estudiantes que lean con detenimiento
  la primera parte de cada capítulo.
@@ -501,12 +501,12 @@ Estado del arte
 
 \begin_layout Standard
 Una vez presentado el problema y el contexto en el que se desarrollará la
- posible solución, hay que hace un estudio sobre las soluciones (parciales)
+ posible solución, hay que hacer un estudio sobre las soluciones (parciales)
  que se han propuesto antes del desarrollo del TFT.
  Esto exige hacer una búsqueda de información relevante, por lo que se debe
- encontrar las fuentes necesarias que apoyen nuestro trabajo es esencial
- igual que lo es saber dónde localizarlas Esto implica una revisión bibliográfic
-a del tema en cuestión.
+ encontrar las fuentes necesarias que apoyen nuestro trabajo.
+ Es esencial saber dónde localizarlas lo que implica una revisión bibliográfica
+ del tema en cuestión.
  En esta sección se expone el estado actual de la ciencia o la realidad
  (tecnología, ley, investigaciones...) sobre el tema que se trata.
  Además de describir la actualidad, se suele hacer un análisis de las ventajas
@@ -568,25 +568,137 @@ Existen multitud de herramientas informáticas para realizar una memoria
 \end_layout
 
 \begin_layout Standard
-En cuanto a procesadores de texto, los más utilizados son Word y Latex.
- Word, en tándem con Windows, es quizás el procesador de textos de referencia.
+Para redactar la memoria es necesario un editor de texto.
+ En cuanto a este tipo de herramientas informáticas existen multitud de
+ ellas como Google Docs 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Google Docs"
+target "https://docs.google.com/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, Kingsoft Writer 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Kingsoft writer"
+target "http://www.kingsoftstore.com/writer-free.html"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, OpenOffice Writer 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "OpenOffice writer"
+target "https://www.openoffice.org/es/producto/writer.html"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, Microsoft Word, LibreOffice 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "LibreOffice"
+target "https://es.libreoffice.org/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, Apple pages 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Apple Pages"
+target "https://www.apple.com/pages/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, Latex 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "LaTex"
+target "https://www.latex-project.org/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+: los más utilizados son Microsoft Word y LaTex.
+ Word es quizás el procesador de textos de referencia.
  Word dispone de todos los elementos necesarios para confeccionar los documentos
  de un TFT.
- Sin embargo, su orientación, hacia un público general, hace difícil que
- sea usado de manera adecuada para la confección de un TFT.
- Últimamente, Libreoffice se está haciendo un hueco en ciertos sectores,
- aunque sigue siendo minoritario.
+ Sin embargo, su orientación, hacia un público general, y la obligación
+ de tener licencia, hace difícil que sea usado de manera adecuada para la
+ confección de un TFT.
+ Últimamente, Libreoffice y OpenOffice se están haciendo un hueco en ciertos
+ sectores, aunque sigue siendo minoritario.
  Aunque Libreoffice aporta ciertas ventajas respecto a Word para este tipo
  de documentos, en la mayoría de los casos, dichas ventajas no tienen la
  suficiente entidad para justificar que el alumno aprenda a manejarlo.
 \end_layout
 
 \begin_layout Standard
-Por otro lado, Latex es un lenguaje de programación especialmente orientado
+Por otro lado, LaTex es un lenguaje de programación especialmente orientado
  a la creación de este tipo de documentos.
- Sin embargo, el aprendizaje de Latex es un proceso complejo y desagradable.
- Es por ello que desde aquí se recomienda el uso de Lyx, que constituye
- una herramienta intermedia entre Word y Latex.
+ Sin embargo, el aprendizaje de LaTex es un proceso complejo y desagradable.
+ Es por ello que desde aquí se recomienda el uso de Lyx (este libro esta
+ escrito con esta aplicación), que constituye una herramienta intermedia
+ entre Word y LaTex.
 \end_layout
 
 \begin_layout Subsection
@@ -596,7 +708,8 @@ Formación de los alumnos
 \begin_layout Standard
 En general, los alumnos que comienzan su TFT, no tienen experiencia confeccionan
 do este tipo de documentos.
- Por ello suelen incurrir en numerosos errores que se repiten en cada proyecto.
+ Por ello suelen incurrir en numerosos errores que se repiten en cada proyecto
+ que el profesor dirige.
  Entre los principales errores se pueden citar:
 \end_layout
 

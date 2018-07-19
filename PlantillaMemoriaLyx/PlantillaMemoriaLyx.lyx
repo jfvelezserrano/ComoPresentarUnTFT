@@ -464,6 +464,9 @@ literal "false"
  un esquema de cómo realizar dicho documento.
  Esta tarea les exige leer dichas memorias y extraer la estructura y el
  contenido principal que deben trasladar a su documento.
+ Al problema de redactar algo nuevo se une el desconocimiento de las herramienta
+s informáticas que se deben usar para la escritura de la memoria y para
+ la consulta de información.
 \end_layout
 
 \begin_layout Standard
@@ -516,11 +519,22 @@ Una vez presentado el problema y el contexto en el que se desarrollará la
 \end_layout
 
 \begin_layout Standard
-La problemática de la confección de la memoria de un TFT se puede enfocar
- desde dos puntos de vista: desde la perspectiva de las herramientas necesarias
- para confeccionar la memoria y desde la perspectiva de la formación de
- los alumnos para la creación de dicha memoria.
+La problemática que se encuentra el estudiante para la confección de la
+ memoria de un TFT se puede enfocar desde dos puntos de vista: desde la
+ perspectiva de las herramientas necesarias para confeccionar la memoria
+ y desde la perspectiva de la formación de los alumnos para la creación
+ de dicha memoria.
  En esta sección se explora la situación actual respecto a ambas perspectivas.
+\end_layout
+
+\begin_layout Standard
+La tutorización de un TFT por el profesorado exige una repetición continua
+ de consejos y buenas prácticas.
+ Además suele adjuntar documentación de la normativa y un esquema con comentario
+s de los contenidos básicos de cada sección.
+ Esta reiteración hace que, a veces, se olvide dar algún consejo o se omita
+ la entrega de alguna información.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -564,7 +578,8 @@ Existen multitud de herramientas informáticas para realizar una memoria
  de un TFT.
  Quizás, la más utilizada es el procesador de textos, aunque pueden citarse
  otras herramientas como: los programas de dibujo y retoque fotográfico,
- las bases de datos de bibliografía o incluso los sistemas de lectura automática.
+ las aplicaciones para gestionar datos bibliográficos o incluso los sistemas
+ de lectura automática.
 \end_layout
 
 \begin_layout Standard
@@ -715,32 +730,116 @@ do este tipo de documentos.
 
 \begin_layout Itemize
 Mala redacción.
- 
+ A los estudiantes les suele costar plasmar en la memoria las ideas.
+ A veces mezclan tiempos verbales y usan párrafos muy largos que dificultan
+ la comprensión
 \end_layout
 
 \begin_layout Itemize
 Falta de coherencia en los textos.
+ A menudo, los alumnos escriben frases inconexas y sin sentido.
 \end_layout
 
 \begin_layout Itemize
 Faltas de ortografía.
+ La existencia de correctores automáticos de ortografía y grámatica hace
+ que los alumnos cada vez presten menos atención a la correcta redacción
+ de textos.
+ Las faltas ortográficas más cometidas son la ausencia o mala colocación
+ de las tildes.
+ Otro tipo de errores ortográficos comunes son la escritura incorrecta de
+ palabras con 'v' o con 'b' (no escribir bien 
+\begin_inset Quotes eld
+\end_inset
+
+benévolo
+\begin_inset Quotes erd
+\end_inset
+
+), con 'h' o sin ella (
+\begin_inset Quotes eld
+\end_inset
+
+hecho
+\begin_inset Quotes erd
+\end_inset
+
+ y 
+\begin_inset Quotes eld
+\end_inset
+
+echo
+\begin_inset Quotes erd
+\end_inset
+
+), la unión o separación de palabras (
+\begin_inset Quotes eld
+\end_inset
+
+haber
+\begin_inset Quotes erd
+\end_inset
+
+ y 
+\begin_inset Quotes eld
+\end_inset
+
+a ver
+\begin_inset Quotes erd
+\end_inset
+
+), la ausencia de signos puntuación (
+\begin_inset Quotes eld
+\end_inset
+
+Hecha la ley hecha la trampa
+\begin_inset Quotes erd
+\end_inset
+
+) ....
+ Este tipo de errores se soluciona leyendo mucho y consultando diccionarios.
+ Los miembros de los tribunales de los TFT leen muchas memorias y la existencia
+ de este tipo de errores les lleva a valorar negativamente el trabajo realizado.
+ 
 \end_layout
 
 \begin_layout Itemize
 Formato incorrecto para el documento.
+ Cuando se escribe la memoria hay que seguir unas normas de formato, que
+ el estudiante no debería modificar.
+ Si no existen esas normas, todo el documento debería ser coherente con
+ el formato elegido inicialmente.
+ Se recomienda al alumno no cambiar de estilo a lo largo de todo el documento.
 \end_layout
 
 \begin_layout Itemize
 Ausencia de elementos importantes en los documentos (como índices, glosarios,
  pies de figuras, referencias bibliográficas...).
+ Habitualmente los TFT deben seguir un esquema que indica que elementos
+ y secciones debe llevar.
+ Se debe consultar el esquema y seguirlo.
+ Se recomienda no improvisar o innnovar a la hora de estructurar la memoria.
 \end_layout
 
 \begin_layout Itemize
 Problemas para presentar ordenadamente el trabajo realizado.
+ Siguiendo el hilo del párrafo anterior, un TFT debe seguir una estructura
+ que permite plasmar de forma ordenada el trabajo realizado.
 \end_layout
 
 \begin_layout Itemize
 Dificultad para realizar la defensa pública de la memoria.
+ Presentar ante el tribunal el trabajo realizado suele ser una tarea difícil
+ por varios motivos.
+ Por ejemplo, hablar en público impone, saber que la nota depende en parte
+ de la defensa oral, la falta de práctica al realizar exposiciones ante
+ espectadores desconocidos...
+ Para realizar mejor esta tarea se recomienda a los estudiantes que practiquen
+ la charla de forma privada varias veces, midiendo el tiempo que se va a
+ dedicar a ello.
+ Si puede hacer alguna exposición ante algún público familiar mejor (amigos,
+ familia, tutor).
+ Todo ello repercutirá en un aumento en la confianza en si mismo.
 \end_layout
 
 \begin_layout Section

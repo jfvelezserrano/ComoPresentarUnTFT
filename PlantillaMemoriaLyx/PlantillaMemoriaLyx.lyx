@@ -804,7 +804,7 @@ Hecha la ley hecha la trampa
 \end_layout
 
 \begin_layout Itemize
-Formato incorrecto para el documento.
+Formato incorrecto del documento.
  Cuando se escribe la memoria hay que seguir unas normas de formato, que
  el estudiante no debería modificar.
  Si no existen esas normas, todo el documento debería ser coherente con
@@ -847,7 +847,7 @@ Objetivos
 \end_layout
 
 \begin_layout Standard
-Este trabajo tiene como objetivo general servir de guía para la confección
+Este trabajo tiene como objetivo general realizar una guía para la confección
  de la memoria de los Trabajos Fin de Titulación (grado, máster o tesis).
  Este objetivo general se puede desglosar en los siguientes objetivos específico
 s:
@@ -888,7 +888,7 @@ Estructura de la memoria
 \end_layout
 
 \begin_layout Standard
-El resto de la presente memoria se divide cuatro capítulos.
+El resto de la presente memoria se divide en cinco capítulos.
  En el siguiente se describen las particularidades de las diferentes titulacione
 s respecto al contenido de la memoria.
  El capítulo tres trata aspectos formales sobre estilo literario y sobre
@@ -914,44 +914,64 @@ Aunque en cada titulación la estructura en detalle del TFT puede ser muy
 \end_layout
 
 \begin_layout Itemize
-Portada Agradecimientos (uno o dos párrafos, una cara como mucho) 
+Portada 
 \end_layout
 
 \begin_layout Itemize
-Resumen (tres o cuatro párrafos, una cara como mucho) 
+Agradecimientos (opcional).
+ Suele ocupar uno o dos párrafos.
+ como límite máximo ocupará una página.
 \end_layout
 
 \begin_layout Itemize
-Índices (de capítulos y secciones, de figuras, de tablas, de algoritmos
- o procedimientos, de siglas...) 
+Resumen.
+ Consta de tres o cuatro párrafos (una página como máximo) explicando brevemente
+ el problema y la solución aportada.
+ El lector debe comprender qué se ha hecho en el TFT.
+ 
 \end_layout
 
 \begin_layout Itemize
-Introducción al trabajo
+Índices.
+ Se suelen incluir los índices de capítulos y secciones, de figuras, de
+ tablas, de algoritmos o procedimientos, de siglas...
+ 
 \end_layout
 
 \begin_layout Itemize
-Desarrollo del trabajo
+Introducción.
+ Se describe el problema, la motivación para realizar el trabajo y los objetivos.
 \end_layout
 
 \begin_layout Itemize
-Presentación de resultados y discusión sobre ellos 
+Desarrollo.
+ Se narra como se ha realizado el trabajo.
+ Puede incluir metodología, recogida y exposición de datos y el desarrollo
+ realizado.
 \end_layout
 
 \begin_layout Itemize
-Conclusiones 
+Resultados.
+ Se presentan los resultados obtenidos y un análisis sobre ellos.
+ 
 \end_layout
 
 \begin_layout Itemize
-Referencias bibliográficas 
+Conclusiones.
+ Se escriben los principales logros del TFT.
 \end_layout
 
 \begin_layout Itemize
-Bibliografía
+Referencias bibliográficas.
+ Se enumeran las fuentes de información consultadas para la realización
+ del TFT.
+ 
 \end_layout
 
 \begin_layout Itemize
-Apéndices
+Apéndices.
+ Se suelen incluir para documentar la información complementaria del TFT
+ que no se ha recogido en los apartados anteriores.
 \end_layout
 
 \begin_layout Standard

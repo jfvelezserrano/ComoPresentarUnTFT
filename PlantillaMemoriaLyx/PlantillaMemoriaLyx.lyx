@@ -1002,7 +1002,7 @@ Hay numerosas titulaciones relacionadas con la informática: ingeniería inform�
 ca, del software, de computadores, software robótico, videojuegos, cibersegurida
 d...
  Dichas titulaciones comparten una característica común: el trabajo concluye
- con la ejecución del proyecto.
+ con el desarrollo y ejecución del proyecto.
  Es decir, en otras ingenierías el TFT es un proyecto, pero no se lleva
  a cabo.
  Sin embargo, en los proyectos de informática se suele llevar a cabo el
@@ -1050,7 +1050,7 @@ Capítulo de introducción
 \begin_layout Standard
 En el capítulo de introducción se introduce el problema o proyecto informático
  que se desarrolla.
- En la introducción, debe estar, en forma de diferentes secciones: 
+ Se suelen incluir diferentes secciones: 
 \end_layout
 
 \begin_layout Standard
@@ -1082,12 +1082,12 @@ motivación
 \begin_inset Quotes erd
 \end_inset
 
-, que explica un problema o necesidad que existe y que el proyecto tratará
+ que explica un problema o necesidad que existe y que el proyecto tratará
  de resolver.
- La motivación debe realizarse de manera pausada, y sin dar por supuesto
+ La motivación debe realizarse de manera pausada y sin dar por supuesto
  que el lector conoce el problema.
- La motivación deberá explicar la importancia del problema y lo que se derivaría
- de su solución.
+ Se deberá explicar la importancia del problema y lo que se derivaría de
+ su solución.
  Esta sección suele contener varias referencias bibliográficas para documentar
  la historia del problema o quién opina que el problema es importante.
 \end_layout
@@ -1148,7 +1148,7 @@ En este proyecto se va a desarrollar una biblioteca que ayude a parametrizar
 
 Además, los objetivos pueden dividirse en: objetivos generales y objetivos
  específicos.
- Un objetivo general es la finalidad del por qué empezamos a desarrollar
+ Un objetivo general es la finalidad del porqué empezamos a desarrollar
  un proyecto, mientras que los objetivos específicos de un proyecto corresponden
  a los pasos que debemos seguir para alcanzar el objetivo general.
 \begin_inset Newline newline
@@ -1212,7 +1212,7 @@ Un punto central de este capítulo suele consistir en una descripción de
  los requisitos de la solución que se desea desarrollar.
  Suele ser habitual dividir dichos requisitos en dos categorías: requisitos
  funcionales y requisitos no funcionales.
- Cada requisito debe enunciarse, con un título, y explicarse suficientemente,
+ Cada requisito debe enunciarse con un título y explicarse suficientemente,
  con uno o varios párrafos de texto.
  
 \end_layout
@@ -1223,8 +1223,15 @@ Si se ha seguido alguna metodología durante el desarrollo del proyecto,
  Previamente suele incluirse una pequeña introducción a dicha metodología
  y añadiendo referencias bibliográficas a documentos que describan la metodologí
 a en detalle.
- Así, por ejemplo, si se usase una metodología como Scrum, podría incluirse
- una sección de metodología empleada.
+ Así, por ejemplo, si se usase una metodología como Scrum 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Scrum"
+literal "false"
+
+\end_inset
+
+, podría incluirse una sección de metodología empleada.
  En dicha sección habría una subsección, de aproximadamente una página,
  con una introducción a Scrum.
  Luego se tendría otra subsección explicando los actores y sus roles.
@@ -1246,13 +1253,13 @@ La base de datos de caras
 \begin_inset Quotes erd
 \end_inset
 
- que describirse dicha base de datos.
+ que describiese dicha base de datos.
 \end_layout
 
 \begin_layout Standard
 Finalmente, y solo si tiene sentido, en este capítulo caben diferentes análisis
  del problema desde diversos puntos de vista: protección de datos, eficiencia
- algóritmica, seguridad, internacionalización, coste...
+ algorítmica, seguridad, internacionalización, coste...
 \end_layout
 
 \begin_layout Subsection

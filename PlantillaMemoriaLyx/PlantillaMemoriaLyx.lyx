@@ -2060,9 +2060,10 @@ Cómo escribir una memoria de TFT
 \end_layout
 
 \begin_layout Standard
-Las memorias de los TFT suelen ser documentos muy explicativos, autocontenidos
- en cuanto a lo que ha desarrollado el alumno, con muchas referencias y
- sin afirmaciones gratuitas.
+Las memorias de los TFT suelen ser documentos académicos, formales, muy
+ explicativos, autocontenidos en cuanto a lo que ha desarrollado el alumno,
+ con muchas referencias y sin afirmaciones gratuitas.
+ Además, debe cuidarse su redacción, su ortografía y su ortotipografía.
  En las siguientes secciones se desarrollan estas ideas.
 \end_layout
 
@@ -2106,8 +2107,8 @@ Los párrafos de texto serán los verdaderos responsables de explicar lo que
 \end_layout
 
 \begin_layout Standard
-Además, debe cuidarse su redacción.
- En general se recomienda un estilo impersonal, evitando el 
+Al escribir los párrafos, en general se recomienda un estilo impersonal,
+ evitando el 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2125,9 +2126,65 @@ nosotros
 
 .
  Así, normalmente se utilizarán frases en pasivo y pasivo reflejo.
- Es importante el uso del corrector ortográfico, pero también debe revisarse
- con atención las palabras que siendo correctas (porque están en el diccionario)
- no se emplean de manera adecuada (por ejemplo poner 
+ Hay que entender que el TFT no es un texto de opinión o de experiencia
+ personal.
+ Es un texto académico formal y el uso del impersonal ayuda a desvincular
+ al autor con los resultados que se están exponiendo.
+\end_layout
+
+\begin_layout Standard
+También es recomendable utilizar frases cortas, ya que en ellas las ideas
+ se transmiten con más simplicidad y es más difícil cometer errores.
+ Por ejemplo, los siguiente dos puntos explican lo mismo:
+\end_layout
+
+\begin_layout Itemize
+Muchos autores ([5],[18],[33]) utilizan la medida del TF-IDF por ser altamente
+ representativa de la importancia que tiene cada término dentro de un corpus,
+ habiéndose convertido en un referente en el ámbito de la minería de textos.
+\end_layout
+
+\begin_layout Itemize
+El TF-IDF muestra la relevancia de cada termino en un corpus.
+ Esta medida es habitual en el campo de la minería de textos, siendo usada
+ por autores como [5], [18] y [33].
+\end_layout
+
+\begin_layout Standard
+Para empezar, el primer párrafo incurre en varias inexactitudes:
+\end_layout
+
+\begin_layout Itemize
+Solo se citan tres autores, y se dice que son muchos autores.
+ Desde cuando tres son muchos.
+\end_layout
+
+\begin_layout Itemize
+El primer punto dice que el TF-IDF 
+\begin_inset Quotes eld
+\end_inset
+
+es un referente en el ámbito de la minería de datos
+\begin_inset Quotes erd
+\end_inset
+
+.
+ ¿Quién lo dice o qué estudio se ha realizado para asegurar esto?.
+\end_layout
+
+\begin_layout Standard
+Además, aunque podría parecernos que el primer párrafo tiene mejor estilo
+ literario, la realidad es que el segundo párrafo expone las dos ideas que
+ se quiere transmitir con mayor claridad.
+ Estas dos ideas son: qué hace el TF-IDF y cómo de común es su uso.
+ 
+\end_layout
+
+\begin_layout Standard
+Resaltar que es muy importante el uso del corrector ortográfico, pero también
+ debe revisarse con atención las palabras que siendo correctas (porque están
+ en el diccionario) no se emplean de manera adecuada (por ejemplo poner
+ 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2192,54 +2249,6 @@ que
 \end_inset
 
 , o cualquier tilde diacrítica).
-\end_layout
-
-\begin_layout Standard
-También es recomendable utilizar frases cortas, ya que en ellas las ideas
- se transmiten con más simplicidad y es más difícil cometer errores.
- Por ejemplo, los siguiente dos puntos explican lo mismo:
-\end_layout
-
-\begin_layout Itemize
-Muchos autores ([5],[18],[33]) utilizan la medida del TF-IDF por ser altamente
- representativa de la importancia que tiene cada término dentro de un corpus,
- habiéndose convertido en un referente en el ámbito de la minería de textos.
-\end_layout
-
-\begin_layout Itemize
-El TF-IDF muestra la relevancia de cada termino en un corpus.
- Esta medida es habitual en el campo de la minería de textos, siendo usada
- por autores como [5], [18] y [33].
-\end_layout
-
-\begin_layout Standard
-Para empezar, el primer párrafo incurre en varias inexactitudes:
-\end_layout
-
-\begin_layout Itemize
-Solo se citan tres autores, y se dice que son muchos autores.
- Desde cuando tres son muchos.
-\end_layout
-
-\begin_layout Itemize
-El primer punto dice que el TF-IDF 
-\begin_inset Quotes eld
-\end_inset
-
-es un referente en el ámbito de la minería de datos
-\begin_inset Quotes erd
-\end_inset
-
-.
- ¿Quién lo dice o qué estudio se ha realizado para asegurar esto?.
-\end_layout
-
-\begin_layout Standard
-Además, aunque podría parecernos que el primer párrafo tiene mejor estilo
- literario, la realidad es que el segundo párrafo expone las dos ideas que
- se quiere transmitir con mayor claridad.
- Estas dos ideas son: qué hace el TF-IDF y cómo de común es su uso.
- 
 \end_layout
 
 \begin_layout Section

@@ -41,6 +41,7 @@
 theorems-ams
 eqs-within-sections
 figs-within-sections
+logicalmkup
 \end_modules
 \maintain_unincluded_children false
 \language spanish
@@ -234,7 +235,16 @@ en <Nombre de la titulación>
 \align center
 
 \size large
-Autor: José Francisco Vélez Serrano
+Autores: 
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size large
+José F.
+ Vélez, Isidoro Hernán, Eduardo García
 \end_layout
 
 \begin_layout Standard
@@ -248,7 +258,7 @@ Tutor: <Nombre del tutor>
 \begin_layout Standard
 \noindent
 \align center
-Julio 2014
+Octubre 2018
 \end_layout
 
 \begin_layout Standard
@@ -340,7 +350,7 @@ Cada capítulo empieza describiendo los contenidos que debería tener y continú
  desarrollando el tema del libro a modo de ejemplo.
  Por lo tanto, se recomienda a los estudiantes que lean con detenimiento
  la primera parte de cada capítulo.
- El resto del capítulo puede ser leído (o no) como texto inspirador o motivador
+ El resto del capítulo puede ser leído como texto inspirador o motivador
  para el desarrollo y escritura del Trabajo Fin de Titulación.
  
 \end_layout
@@ -1020,6 +1030,16 @@ Referencias bibliográficas.
 Apéndices.
  Se suelen incluir para documentar la información complementaria del TFT
  que no se ha recogido en los apartados anteriores.
+\end_layout
+
+\begin_layout Standard
+Dependiendo de la titulación, del tema y del autor, esta estructura se concreta
+ en un conjunto más o menos amplio de capítulos.
+ Normalmente hay uno o dos capítulos introductorios, luego se disponen varios
+ capítulos relativos al desarrollo del trabajo y finalmente debe existir
+ un capítulo de conclusiones.
+ También pueden existir varios anexos que tratan temas laterales.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -2126,65 +2146,9 @@ nosotros
 
 .
  Así, normalmente se utilizarán frases en pasivo y pasivo reflejo.
- Hay que entender que el TFT no es un texto de opinión o de experiencia
- personal.
- Es un texto académico formal y el uso del impersonal ayuda a desvincular
- al autor con los resultados que se están exponiendo.
-\end_layout
-
-\begin_layout Standard
-También es recomendable utilizar frases cortas, ya que en ellas las ideas
- se transmiten con más simplicidad y es más difícil cometer errores.
- Por ejemplo, los siguiente dos puntos explican lo mismo:
-\end_layout
-
-\begin_layout Itemize
-Muchos autores ([5],[18],[33]) utilizan la medida del TF-IDF por ser altamente
- representativa de la importancia que tiene cada término dentro de un corpus,
- habiéndose convertido en un referente en el ámbito de la minería de textos.
-\end_layout
-
-\begin_layout Itemize
-El TF-IDF muestra la relevancia de cada termino en un corpus.
- Esta medida es habitual en el campo de la minería de textos, siendo usada
- por autores como [5], [18] y [33].
-\end_layout
-
-\begin_layout Standard
-Para empezar, el primer párrafo incurre en varias inexactitudes:
-\end_layout
-
-\begin_layout Itemize
-Solo se citan tres autores, y se dice que son muchos autores.
- Desde cuando tres son muchos.
-\end_layout
-
-\begin_layout Itemize
-El primer punto dice que el TF-IDF 
-\begin_inset Quotes eld
-\end_inset
-
-es un referente en el ámbito de la minería de datos
-\begin_inset Quotes erd
-\end_inset
-
-.
- ¿Quién lo dice o qué estudio se ha realizado para asegurar esto?.
-\end_layout
-
-\begin_layout Standard
-Además, aunque podría parecernos que el primer párrafo tiene mejor estilo
- literario, la realidad es que el segundo párrafo expone las dos ideas que
- se quiere transmitir con mayor claridad.
- Estas dos ideas son: qué hace el TF-IDF y cómo de común es su uso.
- 
-\end_layout
-
-\begin_layout Standard
-Resaltar que es muy importante el uso del corrector ortográfico, pero también
- debe revisarse con atención las palabras que siendo correctas (porque están
- en el diccionario) no se emplean de manera adecuada (por ejemplo poner
- 
+ Es importante el uso del corrector ortográfico, pero también debe revisarse
+ con atención las palabras que siendo correctas (porque están en el diccionario)
+ no se emplean de manera adecuada (por ejemplo poner 
 \begin_inset Quotes eld
 \end_inset
 
@@ -2249,6 +2213,54 @@ que
 \end_inset
 
 , o cualquier tilde diacrítica).
+\end_layout
+
+\begin_layout Standard
+También es recomendable utilizar frases cortas, ya que en ellas las ideas
+ se transmiten con más simplicidad y es más difícil cometer errores.
+ Por ejemplo, los siguiente dos puntos explican lo mismo:
+\end_layout
+
+\begin_layout Itemize
+Muchos autores ([5],[18],[33]) utilizan la medida del TF-IDF por ser altamente
+ representativa de la importancia que tiene cada término dentro de un corpus,
+ habiéndose convertido en un referente en el ámbito de la minería de textos.
+\end_layout
+
+\begin_layout Itemize
+El TF-IDF muestra la relevancia de cada termino en un corpus.
+ Esta medida es habitual en el campo de la minería de textos, siendo usada
+ por autores como [5], [18] y [33].
+\end_layout
+
+\begin_layout Standard
+Para empezar, el primer párrafo incurre en varias inexactitudes:
+\end_layout
+
+\begin_layout Itemize
+Solo se citan tres autores, y se dice que son muchos autores.
+ Desde cuando tres son muchos.
+\end_layout
+
+\begin_layout Itemize
+El primer punto dice que el TF-IDF 
+\begin_inset Quotes eld
+\end_inset
+
+es un referente en el ámbito de la minería de datos
+\begin_inset Quotes erd
+\end_inset
+
+.
+ ¿Quién lo dice o qué estudio se ha realizado para asegurar esto?.
+\end_layout
+
+\begin_layout Standard
+Además, aunque podría parecernos que el primer párrafo tiene mejor estilo
+ literario, la realidad es que el segundo párrafo expone las dos ideas que
+ se quiere transmitir con mayor claridad.
+ Estas dos ideas son: qué hace el TF-IDF y cómo de común es su uso.
+ 
 \end_layout
 
 \begin_layout Section
@@ -2737,6 +2749,226 @@ Se escriben tres puntos dentro de paréntesis (...) o corchetes [...] cuando al
  transcribir literalmente un texto se omite una parte de él.
 \end_layout
 
+\begin_layout Subsubsection
+Comillas
+\end_layout
+
+\begin_layout Standard
+Las comillas se deben usar para los fragmentos literales, para citar lo
+ que alguien dice, para citar títulos (de libros, artículos, capítulos,
+ películas, canciones...) y para hablar del lenguaje (metalenguaje).
+ También se usan para marcar palabras que se usan en un sentido distinto
+ al normal y para explicar el significado de palabras y expresiones.
+ Por ejemplo: «patata» que es 'un tubérculo de las solanáceas'.
+\end_layout
+
+\begin_layout Standard
+No hay diferencia entre los diferentes tipos de comillas (latinas «», inglesas
+ 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ o simples '').
+ Los diferentes tipos de comillas se utilizan para poder escribir comillas
+ dentro de textos otras comillas, en este caso se sigue un orden de tamaño.
+ Por ejemplo:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+«La canción de Joaquín Sabina 
+\begin_inset Quotes erd
+\end_inset
+
+Como te digo una 'co' te digo la 'o'
+\begin_inset Quotes erd
+\end_inset
+
+ tiene comillas en el titulo»
+\end_layout
+
+\begin_layout Standard
+Se debe señalar que en el caso de las citas textuales, cuando tienen más
+ de una línea, se suele recomendar que se escriban en un párrafo aparte,
+ y si tiene más de 3 o cuatro líneas se eliminan las comillas y se reduce
+ el tamaño de la tipografía.
+\end_layout
+
+\begin_layout Subsection
+Ortografía
+\end_layout
+
+\begin_layout Standard
+En general debe cuidarse especialmente la ortografía en los TFT.
+ Un error ortográfico es considerado como una falta de cuidado imperdonable
+ por los miembros del tribunal que corrige los trabajos.
+\end_layout
+
+\begin_layout Standard
+Especialmente deben revisarse las tildes, las haches, las bes y las uves,
+ las ges y las jotas, las kas, ces y cus, las elles y la yes...
+ 
+\end_layout
+
+\begin_layout Subsection
+Ortotipografía
+\end_layout
+
+\begin_layout Standard
+La ortotipografía se refiere al uso de mayúsculas y minúsculas, estilos
+ de los caracteres (cursiva, negrita...), tipos de letras (courier, times...),
+ puntuación y espaciado que se aplican a las palabras en un texto.
+\end_layout
+
+\begin_layout Standard
+Se desaconseja el uso de negritas y subrayado dentro del texto.
+ Su uso debe restringirse a los epígrafes.
+\end_layout
+
+\begin_layout Standard
+Quizás el punto más importante se refiere a las palabras en cursiva.
+ En un TFT se utiliza cursivas (el botón 
+\emph on
+emphasis
+\emph default
+) para las palabras que
+\noun on
+ 
+\noun default
+correspondan a palabras extranjeras.
+ Por ejemplo:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Quotes eld
+\end_inset
+
+Las calculadoras tienen una pantalla, conocida comúnmente como 
+\emph on
+display
+\emph default
+, que permite la visualización de las operaciones realizadas.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado, se utiliza el botón 
+\emph on
+Noun
+\emph default
+ para las marcas comerciales.
+ Por ejemplo:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Quotes eld
+\end_inset
+
+
+\noun on
+Telefónica
+\noun default
+ y otros operadores (como 
+\noun on
+Vodafone
+\noun default
+ y 
+\noun on
+Orange
+\noun default
+) han rebajado sus tarifas en fechas recientes.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Las direcciones web (URL) se escribe entre signos de manor y mayor.
+\end_layout
+
+\begin_layout Standard
+Para los trabajos relacionados con la informática y los programas de ordenador
+ existen algunas reglas especificas.
+ Así, los nombres de programas, lenguajes de programación y sistemas operativos
+ se escriben normalmente y con mayúscula inicial (Windows, Linux, C, Java,
+ Word...).
+ Además, la Ortografía de a la Lengua Española explica que es válido usar
+ mayúsculas intermedias en aquellos nombres que las lleven (LibreOffice,
+ LaTeX).
+ Los conceptos generales van en minúsculas, pero las tecnologías y marcas
+ registradas se escriben con mayúsculas inicial (hipertexto, el sistema
+ de gestión de bases de datos, la hoja de cálculo...).
+ Finalmente, el código de programas informáticos y las referencias a elementos
+ del código suele hacerse en fuente monoespaciada (la función 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+print
+\end_layout
+
+\end_inset
+
+, el método 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+main
+\end_layout
+
+\end_inset
+
+, la clase 
+\begin_inset Flex Code
+status open
+
+\begin_layout Plain Layout
+Object
+\end_layout
+
+\end_inset
+
+...).
+ El siguiente fragmento ilustra estos usos:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Quotes eld
+\end_inset
+
+Este documento se ha escrito usando Linux, haciendo uso de un teclado bluetooth.
+ Se puede consultar la URL 
+\begin_inset CommandInset href
+LatexCommand href
+name "<http://www.wikilengua.org/Ortotipografía_en_informática>"
+target "http://www.wikilengua.org/Ortotipograf%C3%ADa_en_inform%C3%A1tica"
+literal "false"
+
+\end_inset
+
+ de la web Wikilengua del español para una explicación más detallada.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Checklist
 \end_layout
@@ -2909,23 +3141,6 @@ Raramente se debe utilizar subsubsection, pues supone demasiado nivel de
 Standar
 \emph default
 , para los párrafos normales.
-\end_layout
-
-\begin_layout Standard
-Además, en un TFT se utiliza el botón 
-\emph on
-emphasis
-\emph default
- para las palabras que
-\noun on
- 
-\noun default
-correspondan a palabras extranjeras.
- También se utiliza el botón 
-\emph on
-Noun
-\emph default
- para las marcas comerciales.
 \end_layout
 
 \begin_layout Standard

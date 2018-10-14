@@ -52,8 +52,8 @@ logicalmkup
 \font_sans "default" "default"
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
-\font_default_family rmdefault
-\use_non_tex_fonts false
+\font_default_family default
+\use_non_tex_fonts true
 \font_sc false
 \font_osf false
 \font_sf_scale 100 100
@@ -173,19 +173,20 @@ begin{titlepage}
 \end_layout
 
 \begin_layout Standard
-\paragraph_spacing double
 \noindent
 \align center
 \begin_inset Graphics
-	filename Figs/logoURJC.eps
-	height 3cm
+	filename Figs/logoURJC.pdf
+	width 8cm
 
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
+\noindent
+\align center
 <Nombre de la Facultad o Escuela>
 \end_layout
 
@@ -217,9 +218,13 @@ Plantilla y método para la escritura del trabajo fin de titulación
 
 \size large
 Memoria del Trabajo Fin de <Tipo de titulación>
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
+\begin_layout Standard
+\noindent
+\align center
+
+\size large
 en <Nombre de la titulación>
 \end_layout
 
@@ -282,7 +287,7 @@ Agradecimientos
 \end_layout
 
 \begin_layout Standard
-Quiero agradecer sus consejos a Critina Rodríguez y a Eduardo García Pardo.
+Quiero agradecer sus consejos a Critina Rodríguez.
 \end_layout
 
 \begin_layout Standard
@@ -626,7 +631,17 @@ Existen multitud de herramientas informáticas para realizar una memoria
 \begin_layout Standard
 Para redactar la memoria es necesario un editor de texto.
  En cuanto a este tipo de herramientas informáticas existen multitud de
- ellas como Google Docs 
+ ellas como Google Docs
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Google Docs
+\end_layout
+
+\end_inset
+
+ 
 \begin_inset Foot
 status open
 
@@ -736,21 +751,60 @@ literal "false"
 
 : los más utilizados son Microsoft Word y LaTex.
  Word es quizás el procesador de textos de referencia.
- Word dispone de todos los elementos necesarios para confeccionar los documentos
+ Word
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Word
+\end_layout
+
+\end_inset
+
+ dispone de todos los elementos necesarios para confeccionar los documentos
  de un TFT.
  Sin embargo, su orientación, hacia un público general, y la obligación
  de tener licencia, hace difícil que sea usado de manera adecuada para la
  confección de un TFT.
- Últimamente, Libreoffice y OpenOffice se están haciendo un hueco en ciertos
- sectores, aunque sigue siendo minoritario.
- Aunque Libreoffice aporta ciertas ventajas respecto a Word para este tipo
- de documentos, en la mayoría de los casos, dichas ventajas no tienen la
- suficiente entidad para justificar que el alumno aprenda a manejarlo.
+ Últimamente, Libreoffice y OpenOffice
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+OpenOffice
+\end_layout
+
+\end_inset
+
+ se están haciendo un hueco en ciertos sectores, aunque sigue siendo minoritario.
+ Aunque Libreoffice
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Libreoffice
+\end_layout
+
+\end_inset
+
+ aporta ciertas ventajas respecto a Word para este tipo de documentos, en
+ la mayoría de los casos, dichas ventajas no tienen la suficiente entidad
+ para justificar que el alumno aprenda a manejarlo.
 \end_layout
 
 \begin_layout Standard
-Por otro lado, LaTex es un lenguaje de programación especialmente orientado
- a la creación de este tipo de documentos.
+Por otro lado, LaTex
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+LaTex
+\end_layout
+
+\end_inset
+
+ es un lenguaje de programación especialmente orientado a la creación de
+ este tipo de documentos.
  Sin embargo, el aprendizaje de LaTex es un proceso complejo y desagradable.
  Es por ello que desde aquí se recomienda el uso de Lyx (este libro esta
  escrito con esta aplicación), que constituye una herramienta intermedia
@@ -783,7 +837,7 @@ Falta de coherencia en los textos.
 
 \begin_layout Itemize
 Faltas de ortografía.
- La existencia de correctores automáticos de ortografía y grámatica hace
+ La existencia de correctores automáticos de ortografía y gramática hace
  que los alumnos cada vez presten menos atención a la correcta redacción
  de textos.
  Las faltas ortográficas más cometidas son la ausencia o mala colocación
@@ -859,7 +913,7 @@ Ausencia de elementos importantes en los documentos (como índices, glosarios,
  Habitualmente los TFT deben seguir un esquema que indica que elementos
  y secciones debe llevar.
  Se debe consultar el esquema y seguirlo.
- Se recomienda no improvisar o innnovar a la hora de estructurar la memoria.
+ Se recomienda no improvisar o innovar a la hora de estructurar la memoria.
 \end_layout
 
 \begin_layout Itemize
@@ -1053,6 +1107,16 @@ A pesar de la generalidad descrita, los proyectos de las diferentes titulaciones
 
 \begin_layout Section
 Titulaciones relacionadas con la informática
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+informática
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1551,6 +1615,16 @@ Anexos técnicos, que describan detalles específicos o herramientas de software
 
 \begin_layout Section
 Ingenierías
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ingenierías
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1602,6 +1676,16 @@ Planificación temporal y presupuesto.
 
 \begin_layout Section
 Titulaciones en Ciencias Jurídicas
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ciencias Jurídicas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1660,6 +1744,16 @@ Trabajo de revisión e interpretación crítica normativa sobre un tema relacion
 
 \begin_layout Section
 Titulaciones en Ciencias Sociales
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ciencias Sociales
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1741,6 +1835,16 @@ Conclusiones, explicando el grado de consecución de los objetivos planteados.
 
 \begin_layout Section
 Titulaciones en Ciencias de la Comunicación
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ciencias de la Comunicación
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1811,6 +1915,16 @@ Conclusiones.
 
 \begin_layout Section
 Titulaciones en Ciencias de la Salud
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ciencias de la Salud
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1886,6 +2000,16 @@ Conclusiones.
 
 \begin_layout Section
 Titulaciones en Ciencias Experimentales
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ciencias Experimentales
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1942,7 +2066,27 @@ En las siguientes subsecciones se describirá el contenido que suele encontrarse
 \end_layout
 
 \begin_layout Section
-Titulaciones de máster o de doctorado con caracter investigador
+Titulaciones de máster
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+máster
+\end_layout
+
+\end_inset
+
+ o de doctorado
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+doctorado
+\end_layout
+
+\end_inset
+
+ con carácter investigador
 \end_layout
 
 \begin_layout Standard
@@ -1969,7 +2113,17 @@ También puede ocurrir, sobre todo en las tesis doctorales, que no tengan
 \end_layout
 
 \begin_layout Section
-Formato físico de la memoria
+Formato
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Formato
+\end_layout
+
+\end_inset
+
+ físico de la memoria
 \end_layout
 
 \begin_layout Standard
@@ -2120,8 +2274,18 @@ secciones
 \end_layout
 
 \begin_layout Standard
-Los párrafos de texto serán los verdaderos responsables de explicar lo que
- se ha hecho en el TFT.
+Los párrafos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+párrafos
+\end_layout
+
+\end_inset
+
+ de texto serán los verdaderos responsables de explicar lo que se ha hecho
+ en el TFT.
  Suele ser una buena idea diseñar un esquema de lo que se desea contar en
  cada capítulo, sección y párrafo.
 \end_layout
@@ -2265,6 +2429,16 @@ Además, aunque podría parecernos que el primer párrafo tiene mejor estilo
 
 \begin_layout Section
 La memoria debe ser autocontenida
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+autocontenida
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2311,6 +2485,16 @@ En cualquier caso se recomienda seguir un discurso ordenado, que describa
 
 \begin_layout Section
 La memoria no tiene afirmaciones gratuitas
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+afirmaciones gratuitas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2340,6 +2524,16 @@ Como siempre, estas reglas deben tomarse con mesura.
 
 \begin_layout Section
 El estilo literario
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+estilo literario
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2350,6 +2544,16 @@ La memoria de un Trabajo Fin de Grado es una obra literaria y como a tal
 
 \begin_layout Subsection
 El narrador
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+narrador
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2425,6 +2629,16 @@ El estilo preferido en un trabajo científico suele ser el impersonal, ya
 
 \begin_layout Subsection
 Los tiempos verbales
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+tiempos verbales
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2491,6 +2705,16 @@ También, es importante que los tiempos verbales de los diferentes párrafos
 
 \begin_layout Subsection
 El uso de los signos de puntuación
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+signos de puntuación
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2513,6 +2737,16 @@ En general, se puede comentar que el punto (.), la coma (,), el punto y coma
 
 \begin_layout Subsubsection
 El punto
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+punto
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2543,6 +2777,16 @@ Los títulos y los subtítulos de libros, artículos, capítulos, obras de arte,
 
 \begin_layout Subsubsection
 La coma
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+coma
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2676,6 +2920,16 @@ literal "false"
 
 \begin_layout Subsubsection
 El punto y coma
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+punto y coma
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2697,6 +2951,16 @@ Para separar proposiciones yuxtapuestas, especialmente cuando en estas se
 
 \begin_layout Subsubsection
 Los dos puntos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+dos puntos
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2722,6 +2986,16 @@ Los dos puntos preceden a las citas textuales.
 
 \begin_layout Subsubsection
 Los puntos suspensivos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+puntos suspensivos
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2751,6 +3025,16 @@ Se escriben tres puntos dentro de paréntesis (...) o corchetes [...] cuando al
 
 \begin_layout Subsubsection
 Comillas
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Comillas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2801,6 +3085,16 @@ Se debe señalar que en el caso de las citas textuales, cuando tienen más
 
 \begin_layout Subsection
 Ortografía
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ortografía
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2817,12 +3111,90 @@ Especialmente deben revisarse las tildes, las haches, las bes y las uves,
 
 \begin_layout Subsection
 Ortotipografía
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ortotipografía
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-La ortotipografía se refiere al uso de mayúsculas y minúsculas, estilos
- de los caracteres (cursiva, negrita...), tipos de letras (courier, times...),
- puntuación y espaciado que se aplican a las palabras en un texto.
+La ortotipografía se refiere al uso de mayúsculas
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mayúsculas
+\end_layout
+
+\end_inset
+
+ y minúsculas
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+minúsculas
+\end_layout
+
+\end_inset
+
+, estilos de los caracteres (cursiva
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+cursiva
+\end_layout
+
+\end_inset
+
+, negrita
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+negrita
+\end_layout
+
+\end_inset
+
+...), tipos de letras
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+tipos de letras
+\end_layout
+
+\end_inset
+
+ (courier
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+courier
+\end_layout
+
+\end_inset
+
+, times
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+times
+\end_layout
+
+\end_inset
+
+...), puntuación y espaciado que se aplican a las palabras en un texto.
 \end_layout
 
 \begin_layout Standard
@@ -2831,7 +3203,17 @@ Se desaconseja el uso de negritas y subrayado dentro del texto.
 \end_layout
 
 \begin_layout Standard
-Quizás el punto más importante se refiere a las palabras en cursiva.
+Quizás el punto más importante se refiere a las palabras en cursivatimes
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+times
+\end_layout
+
+\end_inset
+
+.
  En un TFT se utiliza cursivas (el botón 
 \emph on
 emphasis
@@ -2971,6 +3353,16 @@ literal "false"
 
 \begin_layout Subsection
 Checklist
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Checklist
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3004,6 +3396,16 @@ Debe verificarse que la bibliografía aparece en orden alfabético.
 
 \begin_layout Chapter
 Procesador de textos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Procesador de textos
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3083,7 +3485,27 @@ x
 \end_layout
 
 \begin_layout Section
-Capítulos, secciones y subsecciones
+Capítulos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Capítulos
+\end_layout
+
+\end_inset
+
+, secciones
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+secciones
+\end_layout
+
+\end_inset
+
+ y subsecciones
 \end_layout
 
 \begin_layout Standard
@@ -3160,6 +3582,16 @@ literal "true"
 
 \begin_layout Section
 Índice de palabras y nomenclaturas
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+nomenclaturas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3214,6 +3646,16 @@ literal "true"
 
 \begin_layout Section
 Referencias bibliográficas
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Referencias bibliográficas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3425,6 +3867,16 @@ Ejemplo de uso de URLs en el fichero bib
 
 \begin_layout Section
 Figuras
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Figuras
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3601,6 +4053,16 @@ Siempre se debe poner un texto explicando la figura.
 
 \begin_layout Subsection
 Algoritmos
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Algoritmos
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3743,6 +4205,16 @@ Pasos para insertar algoritmos.
 
 \begin_layout Subsection
 Tablas
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Tablas
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3945,6 +4417,16 @@ Diferentes elementos flotantes a insertar
 
 \begin_layout Section
 Ecuaciones
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Ecuaciones
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3999,6 +4481,16 @@ E=mc\text{²}\label{eq:Energia}
 
 \begin_layout Section
 Lyx es Latex
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Latex
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4248,6 +4740,16 @@ Preámbulo de este documento.
 
 \begin_layout Chapter
 Presentación
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Presentación
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4494,7 +4996,8 @@ El presente documento cumple los objetivos descritos en la introducción
 \end_layout
 
 \begin_layout Standard
-En concreto, el documento desarrollado cumple los subobjetivos planteados.
+En concreto, el documento desarrollado cumple los objetivos específicos
+ planteados.
  Así:
 \end_layout
 

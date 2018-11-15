@@ -197,7 +197,7 @@ begin{titlepage}
 \begin_layout Standard
 \noindent
 \align center
-Nombre de la Facultad o Escuela
+Pon Aquí el Nombre de la Facultad o Escuela
 \end_layout
 
 \begin_layout Standard
@@ -4621,6 +4621,95 @@ Latex
 Latex
 \noun default
  de nuestro documento.
+\end_layout
+
+\begin_layout Standard
+Quizás.
+ el principal problema que se le puede achacar a Lyx es en ocasiones transluce
+ la complejidad de configuración de Latex.
+ Esto, sobre todo, se nota al principio de los proyectos.
+ Cuando se está iniciando la creación de un documento Lyx es frecuente tener
+ errores cuya resolución precisa de cierto conocimiento de Latex.
+ Por ejemplo, al crear este documento hemos tenido los siguientes problemas:
+\end_layout
+
+\begin_layout Itemize
+Al copiar y pegar texto del PDF generado no se copiaban bien algunos caracteres
+ especiales del castellano (eñes, tildes, comillas...).
+ Para solucionarlo hubo que realizar una búsqueda en Internet y aprender
+ que para estos casos conviene usar tipografías no Tex.
+ Para solucionar ativamos la casilla correspondiente en 
+\begin_inset Quotes eld
+\end_inset
+
+Documento/Configuración/Tipografías
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Además, configuramos 
+\begin_inset Quotes eld
+\end_inset
+
+Herramientas/Preferencias/Gestión de Archivos/Formatos de salida predeterimandos
+/Con tipos no Tex
+\begin_inset Quotes erd
+\end_inset
+
+ a PDF LuaTex.
+\end_layout
+
+\begin_layout Itemize
+Las páginas en blanco aparecían con cabeceras y números de página.
+ Para solucionarlo hubo que realizar una búsqeuda en Internet.
+ Tras ella se vio que el problema se podía resolver incluyendo un pequeño
+ fragmento de código Latex en el preambulo del documento 
+\begin_inset Quotes eld
+\end_inset
+
+Document/settings/Preamble
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+La bibliografía no aparecían en orden alfabético, y los enlaces no se podían
+ pinchar.
+ Para solucionarlo hubo que cambiar el motor de bibliografía a BibLatex
+ en 
+\begin_inset Quotes eld
+\end_inset
+
+Document/settings/Bibliography
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Los enlaces no aparecían en un color distinguible.
+ Para solucionarlo, tras una nueva búsqueda en Internet, hubo que cambiar
+ ciertas opciones en 
+\begin_inset Quotes eld
+\end_inset
+
+Document/Settings/PDF properties
+\begin_inset Quotes erd
+\end_inset
+
+ y además añadir la opción 
+\begin_inset Quotes eld
+\end_inset
+
+allcolors=blue
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard

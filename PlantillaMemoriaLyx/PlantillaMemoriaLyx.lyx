@@ -3490,15 +3490,28 @@ Procesador de textos
 
 \end_layout
 
+\begin_layout Abstract
+Para la confección de un artículo de una revista, o de una memoria de un
+ Trabajo de Fin de Titulación (TFT), se puede usar cualquier procesador
+ de textos.
+ Sin embargo, si dicha herramienta se utiliza adecuadamente pueden obtenerse
+ resultados más profesionales reduciendo a la vez el esfuerzo de edición.
+ En este artículo se explica cómo podrían utilizarse dos alternativas altamente
+ recomendables: Lyx y LibreOffice.
+\end_layout
+
+\begin_layout Section
+Uso de Lyx para confeccionar el TFT
+\end_layout
+
 \begin_layout Standard
-Para la confección de la memoria se puede usar cualquier procesador de textos,
- aunque desde aquí se recomienda 
+
 \noun on
 Lyx
 \noun default
 
 \begin_inset Index idx
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Lyx
@@ -3506,12 +3519,6 @@ Lyx
 
 \end_inset
 
-.
- De hecho, este documento esta pensado para que se utilice como plantilla
- de un TFT sobre 
-\noun on
-Lyx
-\noun default
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -3520,7 +3527,8 @@ literal "true"
 
 \end_inset
 
-.
+ es un procesador de textos especializado en la confección de documentos
+ científicos.
  
 \end_layout
 
@@ -3544,7 +3552,7 @@ Microsoft
 ) permiten la confección de documentos complejos mediante el uso de los
  estilos definibles y las diferentes herramientas que incorporan (editores
  de fórmulas, numeración de páginas y secciones, referencias cruzadas...).
- Sin embargo solo 
+ Sin embargo, solo 
 \noun on
 Lyx
 \noun default
@@ -3560,13 +3568,36 @@ x
  es un procesador de textos peculiar.
  Por ejemplo, la tecla de espacio o la tecla de retorno de carro no puede
  pulsarse indiscriminadamente para obtener cierto formato.
- El formato viene dado por las selección que se hace de cada parte del texto.
+ El formato viene dado por la selección que se hace de cada parte del texto.
  Si se desea un título hay que seleccionar estilo título, si se desea un
  cuadro, hay que especificar el tipo de elemento que contendrá, etcétera.
  Todas estas características favorecen la homogeneidad en el texto resultante.
 \end_layout
 
-\begin_layout Section
+\begin_layout Standard
+El primer paso al empezar a usar Lyx es seleccionar el tipo de documento.
+ En Lyx esto se hace utilizando la opción 
+\begin_inset Quotes erd
+\end_inset
+
+Document/Settings/Document class
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Aquí encontraremos una amplia variedad de tipos de documentos que podemos
+ ampliar facilmente buscando en Internet (en este caso hemos usado 
+\begin_inset Quotes eld
+\end_inset
+
+Articulo - clase estándar
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
 Capítulos
 \begin_inset Index idx
 status open
@@ -3662,7 +3693,7 @@ literal "true"
  
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Índice de palabras y nomenclaturas
 \begin_inset Index idx
 status open
@@ -3726,7 +3757,7 @@ literal "true"
 .
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Referencias bibliográficas
 \begin_inset Index idx
 status open
@@ -3969,7 +4000,7 @@ name "alg:Ejemplo-de-uso"
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Figuras
 \begin_inset Index idx
 status open
@@ -4155,7 +4186,7 @@ Siempre se debe poner un texto explicando la figura.
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Algoritmos
 \begin_inset Index idx
 status open
@@ -4307,7 +4338,7 @@ Pasos para insertar algoritmos.
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Tablas
 \begin_inset Index idx
 status open
@@ -4519,7 +4550,7 @@ Diferentes elementos flotantes a insertar
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Ecuaciones
 \begin_inset Index idx
 status open
@@ -4583,7 +4614,7 @@ E=mc\text{²}\label{eq:Energia}
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Lyx es Latex
 \begin_inset Index idx
 status open
@@ -4621,6 +4652,95 @@ Latex
 Latex
 \noun default
  de nuestro documento.
+\end_layout
+
+\begin_layout Standard
+Quizás.
+ el principal problema que se le puede achacar a Lyx es en ocasiones transluce
+ la complejidad de configuración de Latex.
+ Esto, sobre todo, se nota al principio de los proyectos.
+ Cuando se está iniciando la creación de un documento Lyx es frecuente tener
+ errores cuya resolución precisa de cierto conocimiento de Latex.
+ Por ejemplo, al crear este documento hemos tenido los siguientes problemas:
+\end_layout
+
+\begin_layout Itemize
+Al copiar y pegar texto del PDF generado no se copiaban bien algunos caracteres
+ especiales del castellano (eñes, tildes, comillas...).
+ Para solucionarlo hubo que realizar una búsqueda en Internet y aprender
+ que para estos casos conviene usar tipografías no Tex.
+ Para solucionar ativamos la casilla correspondiente en 
+\begin_inset Quotes eld
+\end_inset
+
+Documento/Configuración/Tipografías
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Además, configuramos 
+\begin_inset Quotes eld
+\end_inset
+
+Herramientas/Preferencias/Gestión de Archivos/Formatos de salida predeterimandos
+/Con tipos no Tex
+\begin_inset Quotes erd
+\end_inset
+
+ a PDF LuaTex.
+\end_layout
+
+\begin_layout Itemize
+Las páginas en blanco aparecían con cabeceras y números de página.
+ Para solucionarlo hubo que realizar una búsqeuda en Internet.
+ Tras ella se vio que el problema se podía resolver incluyendo un pequeño
+ fragmento de código Latex en el preambulo del documento 
+\begin_inset Quotes eld
+\end_inset
+
+Document/settings/Preamble
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+La bibliografía no aparecían en orden alfabético, y los enlaces no se podían
+ pinchar.
+ Para solucionarlo hubo que cambiar el motor de bibliografía a BibLatex
+ en 
+\begin_inset Quotes eld
+\end_inset
+
+Document/settings/Bibliography
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Los enlaces no aparecían en un color distinguible.
+ Para solucionarlo, tras una nueva búsqueda en Internet, hubo que cambiar
+ ciertas opciones en 
+\begin_inset Quotes eld
+\end_inset
+
+Document/Settings/PDF properties
+\begin_inset Quotes erd
+\end_inset
+
+ y además añadir la opción 
+\begin_inset Quotes eld
+\end_inset
+
+allcolors=blue
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -4840,6 +4960,568 @@ Preámbulo de este documento.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Uso de Libreoffice para confeccionar la memoria del TFG
+\end_layout
+
+\begin_layout Standard
+Ya se ha comentado que todos los procesadores de textos (como el Writer
+ de LibreOffice o el Word de Microsoft) permiten la confección de documentos
+ complejos mediante el uso de los estilos definibles y las diferentes herramient
+as que incorporan (editores de fórmulas, numeración de páginas y secciones,
+ referencias cruzadas...).
+\end_layout
+
+\begin_layout Standard
+Para no salirse del estilo definido en el procesador, lo principal es acostumbra
+rse a no pulsar sobre ninguna de las opciones de menú fuera de las que ofrece
+ la ventana lateral de estilos y formatos, que aparece al seleccionar 
+\begin_inset Quotes eld
+\end_inset
+
+View/SideBar
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Así, el formato viene dado por las selección que se hace de cada parte
+ del texto.
+ Si se desea un título hay que seleccionar estilo título, si se desea un
+ cuadro, hay que especificar el tipo de elemento que contendrá, etcétera.
+ Todas estas características favorecen la homogeneidad en el documento resultant
+e.
+\end_layout
+
+\begin_layout Section
+El estilista 
+\end_layout
+
+\begin_layout Standard
+La sidebar de estilo y formato (estilista en adelante) permite definir y
+ seleccionar los estilos que se utilizan sobre el documento.
+ Especialmente importante no salirse de las opciones que permite dicha estilista
+, en otro caso el documento no resultará homogéneo.
+ El estilista tiene opciones para configurar: estilos de párrafos, estilos
+ de palabras, estilos de listas y estilos de páginas.
+ Se accede a dichas opciones mediante los botones situados en la barra superior
+ del estilista (ver Figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Cuadro-lateral-de"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figs/estilista.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Cuadro-lateral-de"
+
+\end_inset
+
+Cuadro lateral de selección de estilos para párrafo, carácter, marcos, páginas
+ y listas.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Estilos de párrafos 
+\end_layout
+
+\begin_layout Standard
+Quizás el control más importante de LibreOffice es la lista que permite
+ seleccionar el tipo de párrafo.
+ Cada tipo de párrafo tiene asociado un tipo de letra, un espaciado con
+ los párrafos adyacentes, una distancia entre líneas, un control de líneas
+ huérfanas, la aparición o no en el índice y un largo etcétera de característica
+s.
+\end_layout
+
+\begin_layout Standard
+En un TFT, suelen usarse los siguientes estilos: 
+\end_layout
+
+\begin_layout Itemize
+Heading 1, para cada capítulo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Heading 2, Subsection para los diferentes niveles de sección, y Heading
+ 3 subsección.
+ Raramente se debe utilizar subsubsection, pues supone demasiado nivel de
+ profundidad.
+ 
+\end_layout
+
+\begin_layout Itemize
+Text Body, para los párrafos normales.
+ 
+\end_layout
+
+\begin_layout Standard
+Los párrafos incluyen una configuración del flujo de párrafos.
+ Esta configuración permite definir qué estilo de párrafo debe aplicarse
+ tras el párrafo actual.
+ Así, por ejemplo se puede definir que tras un estilo de tipo heading, venga
+ un estilo de tipo first text body, y que tras un first text body venga
+ un text body normal.
+\end_layout
+
+\begin_layout Standard
+Especialmente importante es la prohibición de utilizar la tecla de retorno
+ de párrafo para insertar espacios entre los párrafos.
+ Estos espacios deben surgir de manera natural de los estilos definidos.
+\end_layout
+
+\begin_layout Subsection
+Estilos de palabras 
+\end_layout
+
+\begin_layout Standard
+Los estilos de palabras permiten definir estilos especiales para cada palabra.
+ Por ejemplo, permiten definir que ciertas palabras vayan sin diccionario,
+ o con un diccionario diferente, o que aparezcan en cursiva.
+ 
+\end_layout
+
+\begin_layout Subsection
+Estilos de listas 
+\end_layout
+
+\begin_layout Standard
+Desde este listado podremos seleccionar los diferentes tipos de listas que
+ existen.
+ Las listas se pueden aplicar sobre cualquier texto normal, con lo que aparecen
+ los conocidos bullets o numeraciones.
+ Pero también se pueden aplicar sobre estilos de párrafos de tipo cabecera,
+ modificando en este caso el tipo de numeración que tenga implícita.
+ Esto último se suele utilizar para que los anexos sigan una numeración
+ diferente (por ejemplo Anexo A, B...).
+ 
+\end_layout
+
+\begin_layout Subsection
+Estilos de páginas
+\end_layout
+
+\begin_layout Standard
+Los estilos de página permiten configurar estilos diferentes para la primera
+ página de un capítulo o de un índice, para páginas impares y pares, para
+ páginas apaisadas, etc.
+ Los estilos de página también están sujetos al flujo entre páginas y entre
+ párrafos.
+ Así, se puede configurar que tras una página par viene una impar y viceversa,
+ que tras una primera página viene una par, o que el estilo heading 1 comienza
+ con estilo primera página.
+ 
+\end_layout
+
+\begin_layout Standard
+Los estilos de página también suelen seleccionarse cuando se inserta un
+ salto de página manual, por ejemplo para incluir elementos poco habituales
+ como páginas de índice o portadas.
+ 
+\end_layout
+
+\begin_layout Subsection
+Opciones de visualización del estilista
+\end_layout
+
+\begin_layout Standard
+Dada la gran cantidad de elementos que tiene el estilista, normalmente,
+ durante la edición de un documento, se selecciona la opción “estilos aplicados”
+ para que solo se muestren los estilos que estamos usando en ese documento.
+ A pesar de ello, se recomienda dar un vistazo a los estilos existentes
+ antes de intentar crear uno.
+ 
+\end_layout
+
+\begin_layout Subsection
+Índice de palabras y nomenclaturas
+\end_layout
+
+\begin_layout Standard
+Las palabras que correspondan a conceptos conceptos importantes en la memoria
+ deben marcarse como entradas en el índice (
+\begin_inset Quotes eld
+\end_inset
+
+insert/index and tables/entry
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Así, luego podrán buscarse desde un anexo al final de la memoria.
+ 
+\end_layout
+
+\begin_layout Standard
+También debe marcarse como entrada en nomenclatura cualquier conjunto de
+ siglas que aparezca en el texto.
+ Debe recordarse que en castellano las siglas son invariantes de la lengua
+ escrita y por tanto no modifican su forma cuando designan a más de un referente.
+ 
+\end_layout
+
+\begin_layout Section
+Referencias bibliográficas 
+\end_layout
+
+\begin_layout Standard
+Siempre que se mencione un libro, un artículo, una web o incluso una aplicación
+ debe añadirse una referencia bibliográfica.
+ LibreOffice incorpora una herramienta para gestionar el anexo de bibliografía.
+ 
+\end_layout
+
+\begin_layout Standard
+Para incluir en un documento LibreOffice referencias bibliográfica hay tres
+ opciones: 
+\end_layout
+
+\begin_layout Itemize
+La primera consiste en incluir elementos de la base de datos bibliográfica
+ (Tools/Bibliography database).
+ Se recomienda incluir en dicha base de datos las referencias documentales
+ que se piense usar en futuros documentos.
+ 
+\end_layout
+
+\begin_layout Itemize
+Introducir la referencia en la base de datos del propio documento.
+ Para ello se debe crear mediante new en el cuadro que aparece al seleccionar:
+ “Insert/Index and tables/Bibliography entry”.
+\end_layout
+
+\begin_layout Itemize
+Utilizar el plugin de JabRef.
+\end_layout
+
+\begin_layout Standard
+En cualquier caso debe utilizarse “Insert/Index and tables/Bibliography
+ entry” para insertar las referencias dentro del texto.
+ 
+\end_layout
+
+\begin_layout Standard
+El uso de esta herramienta tiene varias ventajas: 
+\end_layout
+
+\begin_layout Itemize
+El índice de referencias bibliográficas se mantiene ordenado automáticamente.
+ 
+\end_layout
+
+\begin_layout Itemize
+El formato de la bibliografía queda homogéneo, al disponerse siempre en
+ el mismo orden todos los campos.
+ 
+\end_layout
+
+\begin_layout Standard
+Se debe señalar que para ver algunos de los cambios que se producen tras
+ insertar bibliografía, o tras cambiar el caption de las figuras debe solicitars
+e la actualización del documento (mediante 
+\begin_inset Quotes eld
+\end_inset
+
+Tools /Update / All
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Esta actualización se hace bajo petición, pero también se hace de manera
+ automática al imprimir o al cargar el documento.
+ 
+\end_layout
+
+\begin_layout Section
+Figuras
+\end_layout
+
+\begin_layout Standard
+LibreOffice tiene un completo soporte para la inclusión de figuras.
+ Al insertar una figura se suele hacer dentro de marcos (frames), y estos
+ pueden situarse anclados a una página, a un párrafo o como si de un carácter
+ más se tratase.
+ En general debería usarse el método de anclado al párrafo que lo referencia,
+ y luego utilizar el posicionamiento al principio o al fin de página.
+ 
+\end_layout
+
+\begin_layout Standard
+Si el anclaje a párrafo causa desconcierto, se puede utilizar el anclaje
+ “como carácter”.
+ En este caso cada frame se comporta como un carácter, por lo que habrá
+ que aplicarle un retorno de carro anterior y posterior y un estilo adecuado.
+ En cualquier caso siempre es recomendable revisar antes de la impresión
+ final la colocación de las imágenes para evitar huecos innecesarios.
+ 
+\end_layout
+
+\begin_layout Standard
+El mejor soporte para la colocación automática de las imágenes la tiene
+ Latex, pero según los responsables de Word y LibreOffice es imposible implement
+ar un sistema como el de Latex debido a que en los procesadores WYSIWYG
+ debe hacerse sobre la marcha, mientras que en Latex se hace en un proceso
+ posterior de compilación que puede demorarse para tomar mejores soluciones.
+ 
+\end_layout
+
+\begin_layout Standard
+Para insertar una figura debe pegarse la figura o preferiblemente insertarla
+ desde fichero (Insert/image/From File).
+ Es recomendable que se inserten las figuras desde fichero y no mediante
+ el procedimiento de cortar y pegar.
+ Por ello, se recomienda que junto al fichero LibreOffice se disponga de
+ una carpeta que contenga los ficheros de todas las imágenes que se usen
+ en el documento.
+ Esto tiene la ventaja de que si en algún momento se quiere modificar una
+ figura se puede hacer sobre la fuente original.
+ 
+\end_layout
+
+\begin_layout Standard
+También, es recomendable el uso de formatos de imágenes vectoriales para
+ cualquier tipo de diagrama o esquema, pues estos formatos tienen una resolución
+ infinita y quedan muy bien al imprimirlos, evitando cualquier tipo de pixelado.
+ En caso de necesitar incluir imágenes tipo bitmap, siempre es preferible
+ que estén en formato PNG, ya que otros formatos como JPG o TIFF suelen
+ incluir pérdidas de calidad para reducir el tamaño del archivo.
+ 
+\end_layout
+
+\begin_layout Standard
+El posicionamiento del cuadro flotante puede seleccionarse con precisión
+ utilizando el menú contextual sobre la etiqueta de la figura flotante.
+ En particular, se recomienda el posicionamiento al principio o al final
+ de las páginas.
+ También, se puede desear centrar la figura dentro del cuadro flotante,
+ para ello se debe situar el cursor dentro del cuadro flotante, pulsar en
+ Paragraph Settings y seleccionar el centrado.
+ 
+\end_layout
+
+\begin_layout Standard
+Una vez que se tiene un cuadro al que se le debe añadir una etiqueta mediante
+ botón derecho sobre la figura y “Caption”.
+ No se debe olvidar hacer referencia a la figura desde el texto, explicando
+ con detalle qué se debe entender en dicha figura.
+ Para incluir la referencia a la figura debe insertarse la referencia en
+ el texto mediante “Insert/Cross reference” (Figura 4.2).
+ 
+\end_layout
+
+\begin_layout Standard
+Para facilitar todo este proceso, en el presente documento se ha añadido
+ un autotexto (
+\begin_inset Quotes eld
+\end_inset
+
+Edit/Autotext
+\begin_inset Quotes erd
+\end_inset
+
+) que crea el 
+\emph on
+Frame
+\emph default
+ para el texto, le pone el 
+\emph on
+Caption
+\emph default
+ y deja el cursor preparado para insertar la figura.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Figs/AspectoLibreOffice.png
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ejemplo del aspecto de LibreOffice con la barra lateral de estilos y formatos.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Algoritmos 
+\end_layout
+
+\begin_layout Standard
+El procedimiento para incluir algoritmos o fragmentos e código es similar
+ al descrito para la figuras.
+ El cuadro Algoritmo 4.1 describe dicho procedimiento.
+ Se recomienda usar un editor como kate o notepad++ que permite copiar el
+ formato del código mediante la opción 
+\begin_inset Quotes eld
+\end_inset
+
+Copy As HTML
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+Insertar un frame (o copiarlo de uno previo).
+\end_layout
+
+\begin_layout Plain Layout
+Si es posible insertar la imagen desde fichero (mejor que copiar y pegar)
+\end_layout
+
+\begin_layout Plain Layout
+Si el gráfico es esquemático deben usarse imágenes vectoriales, en caso
+ de que no sea posible usar PNG, si no es posible usar otro formato.
+\end_layout
+
+\begin_layout Plain Layout
+Centrar la figura.
+\end_layout
+
+\begin_layout Plain Layout
+Añadir un caption.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Explicación detallada del proceso de inserción de algoritmos.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Tablas 
+\end_layout
+
+\begin_layout Standard
+Las tablas se insertan de manera similar a los algoritmos y las figuras.
+ En este caso se selecciona “Insert/table”, y luego, dentro del cuadro flotante,
+ se inserta la tabla (“Insert / Table”).
+ La Tabla 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Diferentes-elementos-flotantes"
+
+\end_inset
+
+ recoge los diferentes tipos de elementos que se han descrito que precisan
+ frames.
+\end_layout
+
+\begin_layout Section
+Ecuaciones
+\end_layout
+
+\begin_layout Standard
+Para insertar una ecuación se debe utilizar 
+\begin_inset Quotes eld
+\end_inset
+
+Insert/Object/Formula
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Si luego se desea hacer referencia a dicha fórmula se debe poner una etiqueta
+ usando el menú de contexto sobre la fórmula.
+ Finalmente, se puede usar una tabla para forzar que la fórmula esté centrada
+ y su numeración alineada a la derecha.
+ 
+\end_layout
+
+\begin_layout Section
+Para saber más 
+\end_layout
+
+\begin_layout Standard
+Para conocer mejor el funcionamiento de LibreOffice, existe un estupendo
+ manual de Libreoffice 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "SaberMasLibreOffice"
+literal "true"
+
+\end_inset
+
+, que se puede descargar en formato PDF, y además están las ayudas que acompañan
+ al programa.
 \end_layout
 
 \begin_layout Chapter

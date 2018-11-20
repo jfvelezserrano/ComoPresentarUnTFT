@@ -297,7 +297,7 @@ Agradecimientos
 \end_layout
 
 \begin_layout Standard
-Quiero agradecer sus consejos a Critina Rodríguez.
+Quiero agradecer sus consejos a Cristina Rodríguez.
 \end_layout
 
 \begin_layout Standard
@@ -2225,15 +2225,18 @@ reference "fig:Ejemplos-de-encuardenaciones"
 
 a) es más cara, unos 30 euros, y puede tardar hasta una semana en ser confeccion
 ada.
- La opción econonómica (ver figura 
+ La opción económica (ver figura 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Ejemplos-de-encuardenaciones"
 
 \end_inset
 
-b) cuesta unos 5 euros, y pueden realizarla en el momento en cualquier work
- center.
+b) cuesta unos 5 euros, y pueden realizarla en el momento en cualquier 
+\emph on
+work center
+\emph default
+.
 \end_layout
 
 \begin_layout Standard
@@ -2289,7 +2292,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Ejemplos de encuardenaciones para la memoria.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Ejemplos de encuadernaciones para la memoria.
+\end_layout
+
+\end_inset
+
+Ejemplos de encuadernaciones para la memoria.
  En (a) una encuadernación de más calidad aunque más cara.
  En (b) una encuadernación más barata y suficiente.
 \begin_inset CommandInset label
@@ -3433,7 +3445,34 @@ literal "false"
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
+Bibliografía
+\end_layout
+
+\begin_layout Standard
+Para un TFT es muy importante disponer de una sección de bibliografía adecuada.
+ La bibliografía se sitúa como un capítulo final sin numerar.
+ Este capítulo debe incluir referencias completas a los artículos de revistas,
+ libros y páginas webs que se mencionen en el resto de la memoria.
+\end_layout
+
+\begin_layout Standard
+Siempre debe incluirse al menos un título y la fecha en la que se publicó
+ el objeto referenciado.
+ En caso de no saberse cuando se publicó se puede poner la fecha en la que
+ se está consultando.
+ Además, es recomendable incluir campos como: los autores, el nombre de
+ la revista o la serie de artículos y la página si es un libro.
+\end_layout
+
+\begin_layout Standard
+En el caso de incluir enlaces electrónicos a revistas o libros debe intentar
+ usarse el DOI.
+ En el caso de enlaces a páginas web debe intentar usarse un permalink (por
+ ejemplo generado con www.webcitation.org).
+\end_layout
+
+\begin_layout Section
 Lista de comprobación
 \begin_inset Index idx
 status open
@@ -3940,64 +3979,6 @@ bibliografía
 \end_inset
 
  queda homogéneo, al disponerse siempre en el mismo orden todos los campos.
-\end_layout
-
-\begin_layout Standard
-Para que al incluir URLs se creen enlaces se debe incluir el paquete 
-\backslash
-usepackage{url} en el preámbulo del documento Lyx.
- Además, dichos enlaces se realizarán mediante el campo HowPublished en
- el archivo bib.
- Especificando dentro la etiqueta 
-\backslash
-url.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float algorithm
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset listings
-inline false
-status open
-
-\begin_layout Plain Layout
-
-HowPublished = {
-\backslash
-url{http://wiki.lyx.org/uploads/BibTeX/biblioexample.pdf}}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Ejemplo de uso de URLs en el fichero bib.
-\begin_inset CommandInset label
-LatexCommand label
-name "alg:Ejemplo-de-uso"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -5653,6 +5634,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Ejemplo de diapositiva.
+\end_layout
+
+\end_inset
+
 Ejemplo de diapositiva.
  Obsérvese el titulo de la diapositiva, de la sección y del trabajo.
  Obsérvese también las palabras resaltadas.

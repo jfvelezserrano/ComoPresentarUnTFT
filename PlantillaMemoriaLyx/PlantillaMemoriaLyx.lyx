@@ -3556,7 +3556,7 @@ Procesador de textos
 
 \end_layout
 
-\begin_layout Abstract
+\begin_layout Standard
 Para la confección de un artículo de una revista, o de una memoria de un
  Trabajo de Fin de Titulación (TFT), se puede usar cualquier procesador
  de textos.
@@ -4695,7 +4695,7 @@ Herramientas/Preferencias/Gestión de Archivos/Formatos de salida predeterimando
 \begin_inset Quotes erd
 \end_inset
 
- a PDF LuaTex.
+ a PDF XeTex.
 \end_layout
 
 \begin_layout Itemize

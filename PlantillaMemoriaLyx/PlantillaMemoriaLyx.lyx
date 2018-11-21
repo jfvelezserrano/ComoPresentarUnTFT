@@ -3447,6 +3447,16 @@ literal "false"
 
 \begin_layout Section
 Bibliografía
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Bibliografía
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3469,7 +3479,24 @@ Siempre debe incluirse al menos un título y la fecha en la que se publicó
 En el caso de incluir enlaces electrónicos a revistas o libros debe intentar
  usarse el DOI.
  En el caso de enlaces a páginas web debe intentar usarse un permalink (por
- ejemplo generado con www.webcitation.org).
+ ejemplo generado con 
+\begin_inset CommandInset href
+LatexCommand href
+name "www.webcitation.org"
+target "htp://www.webcitation.org"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Como se puede comprobar en el párrafo anterior, hay que señalar que no todas
+ las referencias a otras páginas web deben incluirse en la bibliografía.
+ En ocasiones se añade un enlace a una página web de herramienta o un recurso
+ para ponerlo a disposición del lector, pero no se comenta lo que en dicho
+ enlace se explica.
 \end_layout
 
 \begin_layout Section

@@ -2,7 +2,7 @@
 
 Este trabajo tiene como objetivo servir de guía para la confección de la memoria de los Trabajos Fin de Titulación (TFT), bien sean de grado o de máster. 
 
-Este repositorio contiene un [fichero PDF](https://github.com/jfvelezserrano/ComoPresentarUnTFT/blob/master/PlantillaMemoriaLyx/PlantillaMemoriaLyx.pdf) que explica detalladamente cómo crear la memoria de un TFT y como presentarlo. Además contiene numerosos ejemplos que el alumno puede utilizar para aprender a crear su propio TFT.
+Este repositorio contiene un [fichero PDF](https://github.com/jfvelezserrano/ComoPresentarUnTFT/blob/master/PlantillaMemoriaLyx/PlantillaMemoriaLyx.pdf) que explica detalladamente cómo crear la memoria de un TFT y como presentarlo. Además contiene numerosos ejemplos que el alumno puede utilizar para aprender a crear su propio TFT. También exite un [versión en Overleaf](https://www.overleaf.com/read/mxrpkgwvrgjh) que se puede copiar libremente.
 
 El objetivo general se puede desglosar en los siguientes objetivos específicos:
 
